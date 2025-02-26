@@ -30,7 +30,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/redefine-og.webp">
 <meta property="article:published_time" content="2025-02-24T15:00:40.000Z">
-<meta property="article:modified_time" content="2025-02-26T05:31:14.189Z">
+<meta property="article:modified_time" content="2025-02-26T11:29:02.599Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/redefine-og.webp">
@@ -477,11 +477,70 @@
 <p>✨ <strong>我们的宇宙起源故事</strong>  </p>
 <h3 id="🌌-命运代码"><a href="#🌌-命运代码" class="headerlink" title="🌌 命运代码"></a>🌌 <strong>命运代码</strong></h3><p><code>相遇坐标</code> → <strong>2022.8.15</strong><br>那天宇宙算法突然宕机✨<br>两个独立运行的星体<br>在夏夜蝉鸣里发生了第一次数据纠缠  </p>
 <p><code>相爱协议</code> → <strong>2023.2.2</strong><br>情人节前的量子跃迁💫<br>我们向时空提交了《永恒兼容申请书》<br>从此所有系统更新都变成双人版本  </p>
-<h3 id="⏳-时间计算器-✨-我们的宇宙起源故事"><a href="#⏳-时间计算器-✨-我们的宇宙起源故事" class="headerlink" title="⏳ 时间计算器  ✨ 我们的宇宙起源故事"></a>⏳ <strong>时间计算器</strong>  ✨ <strong>我们的宇宙起源故事</strong></h3><p>📅 今日恋爱存续时长：天<br>（每天0点自动播报心跳频率💓）  </p>
+<h4 id="⏳-我们已共同走过："><a href="#⏳-我们已共同走过：" class="headerlink" title="⏳ 我们已共同走过："></a>⏳ 我们已共同走过：</h4>
+
+<span class="odometer" id="loveDays">0</span> 天 
+<span class="odometer" id="loveHours">0</span> 小时 
+<span class="odometer" id="loveMinutes">0</span> 分 
+<span class="odometer" id="loveSeconds">0</span> 秒
+
+<div id="particles-js" style="position:absolute; width:100%; height:100px;"></div>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+
+<script>
+
+(function() {
+  // 配置参数（修改这里↓↓↓）
+  const START_DATE = new Date('2023-02-02T00:00+17:00'); // 北京时间
+  const ODOMETER_OPTIONS = { theme: 'minimal', duration: 800 }; // 动画时长800ms
+
+  // 初始化计数器
+  const odometers = {
+    days: new Odometer({ el: document.getElementById('loveDays'), ...ODOMETER_OPTIONS }),
+    hours: new Odometer({ el: document.getElementById('loveHours'), ...ODOMETER_OPTIONS }),
+    minutes: new Odometer({ el: document.getElementById('loveMinutes'), ...ODOMETER_OPTIONS }),
+    seconds: new Odometer({ el: document.getElementById('loveSeconds'), ...ODOMETER_OPTIONS })
+  };
+
+  // 时间计算引擎
+  function updateTime() {
+    const now = new Date();
+    const diff = now - START_DATE;
+    
+
+    const totalSeconds = Math.floor(diff / 1000);
+    const seconds = totalSeconds % 60;
+    const totalMinutes = Math.floor(totalSeconds / 60);
+    const minutes = totalMinutes % 60;
+    const totalHours = Math.floor(totalMinutes / 60);
+    const hours = totalHours % 24;
+    const days = Math.floor(totalHours / 24);
+    
+    // 平滑更新计数器
+    odometers.days.update(days);
+    odometers.hours.update(hours);
+    odometers.minutes.update(minutes);
+    odometers.seconds.update(seconds);
+    
+    // 精准对齐下一秒
+    const delay = 1000 - (now % 1000);
+    setTimeout(updateTime, delay);
+  }
+
+  // 启动时间引擎
+  updateTime();
+})();
+</script>
+
+
+<hr>
 <h3 id="🌠-声明"><a href="#🌠-声明" class="headerlink" title="🌠 声明"></a>🌠 <strong>声明</strong></h3><p>这个云端小窝，<br>是我们用1314行代码写就的情书，<br>更是向全宇宙宣告的——<br><strong>《关于人类浪漫可能性的持续验证报告》</strong>  </p>
 <hr>
-<h2 id="兴趣"><a href="#兴趣" class="headerlink" title="兴趣"></a>兴趣</h2><p>我们喜欢：</p>
-<ul>
+<h3 id="我们喜欢："><a href="#我们喜欢：" class="headerlink" title="我们喜欢："></a>我们喜欢：</h3><ul>
 <li>🎵 听音乐：我们喜欢听流行音乐以及电子音乐。</li>
 <li>🎞️ 看电影：我们喜欢看令人感动的电影。</li>
 <li>🎮 打王者荣耀：这是我们唯一喜欢玩的游戏。</li>
@@ -489,12 +548,13 @@
 </ul>
 <p>🌠 <strong>这些热爱的意义</strong> →<br>它们是我们的爱情语法，把“我”和“你”，写成独一无二的“我们”💫</p>
 <hr>
-<h2 id="🌐「爱的电波发射站」"><a href="#🌐「爱的电波发射站」" class="headerlink" title="🌐「爱的电波发射站」"></a>🌐「爱的电波发射站」</h2><p>我们的宇宙信号持续开放中，期待与您产生奇妙共鸣——</p>
-<h2 id="📡-信号接收器"><a href="#📡-信号接收器" class="headerlink" title="📡 信号接收器"></a>📡 <strong>信号接收器</strong></h2><p>🔗 <strong>微信星际快递</strong><br>扫码添加时请备注暗号：「双向奔赴✨」<br>（首页悬浮窗藏有会跳出的二维码💃）  </p>
+<h3 id="🌐-「爱的电波发射站」"><a href="#🌐-「爱的电波发射站」" class="headerlink" title="🌐 「爱的电波发射站」"></a>🌐 「爱的电波发射站」</h3><p>我们的宇宙信号持续开放中，期待与您产生奇妙共鸣——</p>
+<h4 id="📡-信号接收器"><a href="#📡-信号接收器" class="headerlink" title="📡 信号接收器"></a>📡 <strong>信号接收器</strong></h4><p>🔗 <strong>微信星际快递</strong><br>扫码添加时请备注暗号：「双向奔赴✨」<br>（首页悬浮窗藏有会跳出的二维码💃）  </p>
 <p>📨 <strong>银河邮政总局</strong><br>发送邮件至：<code>deepwhite86@outlook.com</code><br>主题格式建议：「星尘来信_您的名字✨」  </p>
 <h2 id="🌌-通讯公约"><a href="#🌌-通讯公约" class="headerlink" title="🌌 通讯公约"></a>🌌 <strong>通讯公约</strong></h2><p>✅ 48小时内必回宇宙电波<br>✅ 每封来信将收获手写体电子回执✍️  </p>
 <p>💫 欢迎您：<br>分享恋爱保鲜秘籍 | 吐槽浪漫脑洞  </p>
-<h2 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h2><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/FXnadu" >我们的GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<hr>
+<h3 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h3><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/FXnadu" >我们的GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 
 	</div>
 
@@ -558,7 +618,7 @@
         
         <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
            
-            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="">Redefine v2.8.2</a></span>
+            <span class="text-sm lg:block">テーマ&nbsp;<a class="text-base" target="_blank" href="">Redefine v2.8.2</a></span>
         </div>
         
         
