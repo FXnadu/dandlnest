@@ -1,56 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2025/01/21/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>旅途的开始...</title>
-    <url>/2025/02/04/test/</url>
-    <content><![CDATA[
-<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="5e7d5f8ac42690e522b401f9975afe056064ea6eccd46248a79db9d38dc9c691">8f0323ad3578d98ae1dc1156466718d1365e8dee44700b1154cf25c5472f25b3</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
-<script data-swup-reload-script type="module">
-import {initHBE} from "/js/plugins/hbe.js";
-  console.log("hexo-blog-encrypt: loaded.");
-    initHBE();
-</script>
-]]></content>
-      <categories>
-        <category>重要的</category>
-      </categories>
-      <tags>
-        <tag>important</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>中国性文化史</title>
     <url>/2025/01/27/02_c/</url>
-    <content><![CDATA[<h1 id="绪论：性可以影响历史"><a href="#绪论：性可以影响历史" class="headerlink" title="绪论：性可以影响历史"></a>绪论：性可以影响历史</h1><blockquote>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><h1 id="绪论：性可以影响历史"><a href="#绪论：性可以影响历史" class="headerlink" title="绪论：性可以影响历史"></a>绪论：性可以影响历史</h1><blockquote>
 <p>人能否以正确的态度对待性的问题，影响到社会的安定，甚至在某种程度上影响国家的兴亡。</p>
 </blockquote>
 <p>在中国的历史中，妲己，褒姒都被人视为亡国的妖姬，西施和貂蝉都是色情间谍，杨玉环得到唐玄宗的宠爱，一人得道，鸡犬升天，杨氏集团的跋扈和腐败，导致了安史之乱。亡国的责任当然不能全怪罪于她们身上，可是毕竟他们起到了一定的作用。而另一个古代美女王昭君作为一个政治礼品，换来了汉王朝和匈奴若干年的和平，类似的例子在西方国家也比比皆是。</p>
@@ -185,7 +138,16 @@ import {initHBE} from "/js/plugins/hbe.js";
 <p>以上述的这些妓女，无论是营妓、家妓还是私妓，以及一些宫妓，其下场都是较为悲惨的。其只有极少数佼佼者能从妓女“攀龙附凤”。更多的妓女是从良，这是许多妓女十分向往的一种归宿，她们深知人生如朝露，红颜易老，当妓女不可能当一辈子，所以，在为娼一有机会就“择枝而栖”了。如果从良不得或所嫁非人，年老色后陷于冻馁困境，在这种情况下，只好出家为尼姑或女冠。佛教自两汉时传人中国，至南北朝时大为发展，当时佛寺遍布山林，寺院不仅收纳大量男子为僧，而且也剃度不少女子为尼。妓女为尼为冠，也不完全是为了取得生活保障,当时的僧尼经常举行宗教性的歌舞活动，既娱神也娱人，而这正好发挥了不少妓女的专长，寺院用得上她们，她们也还有用武之地。</p>
 <p>总之，古代的妓女在很大程度上代表了当时的歌舞艺术水平，这与后世有很大区别。</p>
 <hr>
-]]></content>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+            var options = {
+            thumbnail:true,
+            selector: '.lightgallery'
+        };
+        var galleries = document.getElementsByClassName("gallery");
+        for (let item of galleries) {
+            lightGallery(item, options)
+        }
+        }</script>]]></content>
       <categories>
         <category>阅读</category>
       </categories>
@@ -195,11 +157,38 @@ import {initHBE} from "/js/plugins/hbe.js";
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2025/01/21/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+            var options = {
+            thumbnail:true,
+            selector: '.lightgallery'
+        };
+        var galleries = document.getElementsByClassName("gallery");
+        for (let item of galleries) {
+            lightGallery(item, options)
+        }
+        }</script>]]></content>
+  </entry>
+  <entry>
     <title>关于我们</title>
     <url>/2024/02/24/hello/</url>
     <content><![CDATA[
 <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="d711928d7566748c700593404c5f157543d2fc8d1ec6f4e4f6320a876d8d849d">5844f566621fccb9c583f0174433e530148f913f5891bf7843b72870495a47a65778d06ecd08b93c557825b298db81d23211c7d97374da543113ec5b6fff3c081374e060157cce31b2d5eb7ea0b9a466e97722a6da853bc35aac886e5bb315d4</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="6e544030537d75f3dae013a66eba75be19d09c29fbd1d0cacdb84966bb01b961">5844f566621fccb9c583f0174433e530e09a108bad5f2e96e71e124b18dbcbab4f40d5465de1fd3e72796053f7fda502484da0aed50af402ed8338b9c998beeb120679d72bc2e24e87adbd7c71b4d8fcefd8b423def6e1e6e105613a95d751fa3ed19b42a7d2bfa300f306f7728d5b6f502dd0712899938b3bc0140321ffd47ed91e9926678d1965915a3abf27e0b5c4b29c100c207c91d3d933e5d878d8b2f1e94e05e2abfe69a0bc47eea26cb137a7c4b48408e9f7ff00aa251c31e4315b560db35d85a1d6b40a31930115a5f210ecef028b83cbbf039e51879ec8b4c4eb4832ffd0a3e6e31136089357156b8ef73c6154fca07d060bc48deff6fa4cf977dc2242d9dd8a01e12d9d4c5f6dcfa1ac4dffb3a878cd4fdceb421252cad16456d63ada02006d5005c104781e320386c4d695480c3c22847c25d20ebfd2048008f38d334add3af87c8342f0997331a644d6c421bb340680d8fbd971653622076764cc95f82b01abe826f36d8820307eac1b65f9382ed01bfbce45fec04f574e6f9015614da953413e73f5ad031caf69335304def652fa95d4964bb5a24430e394d482da70db7bfdf9fa408db4e5eafdfd2b35f9d0d69d617e4ed1e56b291112896a31c013b4020dce1c567a75f4061a6ca78c55362f96de6b7f312ab9d99adb8da20a0a1df1c82b70662e82beca8ddddd3f6ebb365ca759d9bb15f2855f7695d1e40983f4a475cdf99b5261a89f33fcff6733877828eaccee9310c5545618db549db8e962defbd6dc18c6196db6bb77bd221ad28872024c05190a42b98078b585f2adb7695bef0332933023770c6151b3d3b20a8afd4ca6e4fe8f6dbc7aaccaaae9f70b3f2ef977a2f6297b02a29505e06d0854556178a38b7d8939fed52a5f9980f3d548e81dd83abd2bb24ffa3ca2e6ff</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -221,6 +210,35 @@ import {initHBE} from "/js/plugins/hbe.js";
       </categories>
       <tags>
         <tag>b</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>旅途的开始...</title>
+    <url>/2025/02/04/test/</url>
+    <content><![CDATA[
+<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="9757025d56405bc30790a629ab771af56814873977d78e94f7f3e17214279d84">8f0323ad3578d98ae1dc1156466718d1f2c42ca967b47efaa6939ae8df2a34799ca071eb976277a9c595036dcdafaa22c49cc2d9574378d65456f4c90902cd48e36af877a25ff6ded83cd1d8543c97fd8cb4c454001e65de0ba32a42db964bdf0ad76c53a5ddd6bfd2495c742b6436537e9182c9b7c598a6994a838cb9b24e8a5942a93c0d44f4c53c51e926546e7df3c0c0ea3eb419c7e240ec8d7a37e679e27607310a3fbd8dfd811c902ba201e51ce5a2d6034c3715eb1d8c7eb3ab3f7f4751ea402002cfe46f12b4fc19759cb0f77a55b65c80d3e8225e7598d48d1e8ada04e20057676eaae50bcd14b7e2c759065b10010b0e843b35dfc2f0bf9896702c1323d0b3cf8b10ed6a0ed5e87fd73482f4bb9753e0920e0d21f2bf541df6f6daf6862c4dc37049007cdc85ff8497412a87baa31d0a6cfffb15e92f211f3b429f5b5f988d0d8816a7868dbbee83b25602f180f0a06c6f7a9d0c8f802da5aeb33bf2d362ee7110a08c41eea312e96ae6375d63b55838972771cd8a437012ecaf550b729a2ca9b4ed0372b74858a12cf418bdb09d4a45900599511b745838c88472081835f55bbcf116ff22989d3ce556840f7b80da07e3c3848a1fc5c53fd86da4b9362c3a3c0a08b12b119b86ca48ae68677b5f2eb99ccae8ec98ac0b8ce4ce2a4ca001b763cdc99a2b700a2ad6560dc80f6cbd43ab55992687b71e63140da00c13a852fa9df6bd2a186fe5764d7886191d3a92eeca1906141cdc6d270b6b4ead1e677d2b5da340546456e0ec2537e08590be4187a6b22f51125bfaaf329760a4570c66986cfb6fb6dd8e7b87087822d2</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
+<script data-swup-reload-script type="module">
+import {initHBE} from "/js/plugins/hbe.js";
+  console.log("hexo-blog-encrypt: loaded.");
+    initHBE();
+</script>
+]]></content>
+      <categories>
+        <category>重要的</category>
+      </categories>
+      <tags>
+        <tag>important</tag>
       </tags>
   </entry>
 </search>
