@@ -29,8 +29,8 @@
 <meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/redefine-og.webp">
-<meta property="article:published_time" content="2025-02-27T12:14:25.758Z">
-<meta property="article:modified_time" content="2025-02-27T12:14:25.754Z">
+<meta property="article:published_time" content="2025-02-27T15:12:09.921Z">
+<meta property="article:modified_time" content="2025-02-27T15:12:09.913Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/redefine-og.webp">
@@ -111,361 +111,149 @@
 
 
 <body>
-	<div class="progress-bar-container">
-	
-	<span class="scroll-progress-bar"></span>
-	
+	<main class="content">
+  <header class="timeline-header">
+    <h1 class="timeline-title">🍬 西窗盐糖纪</h1>
+    <div class="title-divider">✧ ⁺ ⸰ ⋆ ⸰ ⁺ ✧</div>
+  </header>
 
-	
-	<span class="pjax-progress-bar"></span>
-	<!--        <span class="swup-progress-icon">-->
-	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
-	<!--        </span>-->
-	
-</div>
+  <article>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><style>
 
-<main class="page-container" id="swup">
+/* 年份标题容器 */
+.year-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+  margin: 3rem 0 1.5rem; /* 顶部间距扩大至3rem */
+  padding: 0.8rem 0;
+  border-bottom: 1px solid rgba(255,107,107,0.1);
+  position: relative;
+}
 
-	
+/* 首个年份标题减少顶部间距 */
+.love-timeline > .year-group:first-child .year-header {
+  margin-top: 1.5rem;
+}
 
-	<div class="main-content-container flex flex-col justify-between min-h-dvh">
-		<div class="main-content-header">
-			<header class="navbar-container px-6 md:px-12">
-    <div class="navbar-content transition-navbar ">
-        <div class="left">
-            
-                <a class="logo-image h-8 w-8 sm:w-10 sm:h-10 mr-3" href="/">
-                    <img src="https://personal-pic86.oss-cn-beijing.aliyuncs.com/picture/202502092304415.jpg" class="w-full h-full rounded-sm">
-                </a>
-            
-            <a class="logo-title" href="/">
-                
-                D&amp;L的心跳合频站
-                
-            </a>
-        </div>
+/* 年份数字 */
+.year {
+  font: 600 1.7rem/1 'Courier New', monospace;
+  color: #ff6b6b;
+  position: relative;
+  padding-right: 1.5rem;
+  letter-spacing: -0.05em;
+}
 
-        <div class="right">
-            <!-- PC -->
-            <div class="desktop">
-                <ul class="navbar-list">
-                    
-                        
-                            
+.year::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  background: #ffb3b3;
+  border-radius: 50%;
+}
 
-                            <li class="navbar-item">
-                                <!-- Menu -->
-                                <a class=""
-                                   href="/"
-                                        >
-                                    <i class="fa-regular fa-house fa-fw"></i>
-                                    首页
-                                    
-                                </a>
+/* 阶段标题 */
+.era-title {
+  font: 500 1.6rem/1.3 'Microsoft YaHei';
+  color: #444;
+  position: relative;
+  padding-left: 1.2rem;
+  margin-top: 0.5rem; /* 增加与下方内容的间距 */
+}
 
-                                <!-- Submenu -->
-                                
-                            </li>
-                    
-                        
-                            
+.era-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 1.2em;
+  background: linear-gradient(
+    180deg,
+    rgba(255,107,107,0.25) 0%,
+    rgba(255,107,107,0.1) 100%
+  );
+  border-radius: 2px;
+}
 
-                            <li class="navbar-item">
-                                <!-- Menu -->
-                                <a class=""
-                                   href="/archives"
-                                        >
-                                    <i class="fa-light fa-square-heart fa-fw"></i>
-                                    点点滴滴
-                                    
-                                </a>
+/* 标题与内容区隔 */
+.year-header + .task-list {
+  margin-top: 1.5rem; /* 增大标题与列表间距 */
+}
 
-                                <!-- Submenu -->
-                                
-                            </li>
-                    
-                        
-                            
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .year-header {
+    margin: 2rem 0 1.2rem;
+  }
+  
+  .love-timeline > .year-group:first-child .year-header {
+    margin-top: 1rem;
+  }
+  
+  .era-title::before {
+    height: 1em; /* 缩小竖条高度适配移动端 */
+  }
+}
 
-                            <li class="navbar-item">
-                                <!-- Menu -->
-                                <a class="active"
-                                   href="/love-list"
-                                        >
-                                    <i class="fa-regular fa-chart-bar fa-fw"></i>
-                                    爱情清单
-                                    
-                                </a>
+/* 标题容器 */
+.timeline-header {
+  text-align: center;
+  margin: 3rem 0 2rem;
+}
 
-                                <!-- Submenu -->
-                                
-                            </li>
-                    
-                        
-                            
+/* 主标题-增加渐变光晕 */
+.timeline-title {
+  font: 600 2.5em 'Microsoft YaHei', sans-serif;
+  color: #ff69b4; /* 更改为标准粉红色 */
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 0 20px rgba(255,105,180,0.3);
+  background: linear-gradient(135deg, #ff69b4 30%, #ff99cc 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-                            <li class="navbar-item">
-                                <!-- Menu -->
-                                <a class=""
-                                   href="/tags/"
-                                        >
-                                    <i class="fa-solid fa-tags fa-fw"></i>
-                                    标签
-                                    
-                                </a>
+/* 动态下划线-改为粉色泡泡效果 */
+.timeline-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -12px;
+  width: 120%;
+  height: 8px;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='10' cy='10' r='8' fill='%23ff99dd'/%3E%3Ccircle cx='30' cy='10' r='6' fill='%23ff77aa'/%3E%3Ccircle cx='50' cy='10' r='9' fill='%23ff99dd'/%3E%3Ccircle cx='70' cy='10' r='7' fill='%23ff77aa'/%3E%3Ccircle cx='90' cy='10' r='8' fill='%23ff99dd'/%3E%3C/svg%3E");
+  
+  transform: translateX(-50%);
+  animation: bubbleMove 3s linear infinite;
+}
 
-                                <!-- Submenu -->
-                                
-                            </li>
-                    
-                        
-                            
+@keyframes bubbleMove {
+  0% { background-position: 0 0; }
+  100% { background-position: 100px 0; }
+}
 
-                            <li class="navbar-item">
-                                <!-- Menu -->
-                                <a class="has-dropdown"
-                                   href="#"
-                                        onClick=&#34;return false;&#34;>
-                                    <i class="fa-regular fa-link fa-fw"></i>
-                                    链接
-                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
-                                </a>
+/* 分隔符-粉紫色渐变 */
+.title-divider {
+  background: linear-gradient(90deg, #ff99cc, #ff69b4, #ff99cc);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.5em;
+  margin: 2rem 0;
+  animation: glow 2s ease-in-out infinite;
+}
 
-                                <!-- Submenu -->
-                                
-                                    <ul class="sub-menu">
-                                        
-                                            <li>
-                                                <a href="/about">
-                                                    关于我们
-                                                </a>
-                                            </li>
-                                        
-                                    </ul>
-                                
-                            </li>
-                    
-                    
-                        <li class="navbar-item search search-popup-trigger">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </li>
-                    
-                </ul>
-            </div>
-            <!-- Mobile -->
-            <div class="mobile">
-                
-                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                
-                <div class="icon-item navbar-bar">
-                    <div class="navbar-bar-middle"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Mobile sheet -->
-    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
-        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
-            
-                
-                    
-
-                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
-                        
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
-                           href="/"
-                        >
-                            <span>
-                                首页
-                            </span>
-                            
-                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
-                            
-                        </a>
-                        
-
-                        
-                    </li>
-            
-                
-                    
-
-                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
-                        
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
-                           href="/archives"
-                        >
-                            <span>
-                                点点滴滴
-                            </span>
-                            
-                                <i class="fa-light fa-square-heart fa-sm fa-fw"></i>
-                            
-                        </a>
-                        
-
-                        
-                    </li>
-            
-                
-                    
-
-                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
-                        
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
-                           href="/love-list"
-                        >
-                            <span>
-                                爱情清单
-                            </span>
-                            
-                                <i class="fa-regular fa-chart-bar fa-sm fa-fw"></i>
-                            
-                        </a>
-                        
-
-                        
-                    </li>
-            
-                
-                    
-
-                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
-                        
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
-                           href="/tags/"
-                        >
-                            <span>
-                                标签
-                            </span>
-                            
-                                <i class="fa-solid fa-tags fa-sm fa-fw"></i>
-                            
-                        </a>
-                        
-
-                        
-                    </li>
-            
-                
-                    
-
-                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
-                        
-                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
-                             navbar-data-toggle="submenu-Links"
-                        >
-                            <span>
-                                链接
-                            </span>
-                            
-                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
-                            
-                        </div>
-                        
-
-                        
-                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-Links">
-                                
-                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
-                                        <a class=" text-third-text-color text-xl"
-                                           href="/about">关于我们</a>
-                                    </div>
-                                
-                            </div>
-                        
-                    </li>
-            
-
-            
-            
-                
-                    
-                    
-                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
-                           href="/categories"
-                        >
-                            <span>分类</span>
-                            <i class="fa-regular fa-folder fa-sm fa-fw"></i>
-                        </a>
-                    </li>
-                
-                    
-                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
-                           href="/photo-wall"
-                        >
-                            <span>时光相册</span>
-                            <i class="fa-regular fa-images fa-sm fa-fw"></i>
-                        </a>
-                    </li>
-                
-                    
-                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
-                           href="/talk"
-                        >
-                            <span>说说</span>
-                            <i class="fa-regular fa-comment fa-sm fa-fw"></i>
-                        </a>
-                    </li>
-                
-                    
-                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
-                           href="/bookmarks/"
-                        >
-                            <span>书签</span>
-                            <i class="fa-solid fa-bookmark fa-sm fa-fw"></i>
-                        </a>
-                    </li>
-                
-            
-        </ul>
-
-        <div class="statistics flex justify-around my-2.5">
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">4</div>
-        <div class="label text-third-text-color text-sm">标签</div>
-    </a>
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">3</div>
-        <div class="label text-third-text-color text-sm">分类</div>
-    </a>
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">4</div>
-        <div class="label text-third-text-color text-sm">文章</div>
-    </a>
-</div>
-    </div>
-
-    <div class="window-mask"></div>
-
-</header>
-
-
-		</div>
-
-		<div class="main-content-body transition-fade-up">
-			
-
-			<div class="main-content">
-				<div class="page-template-container">
-	
-
-	
-
-	<div class="page-template-content markdown-body">
-		
-		<h1>🍬 西窗盐糖纪</h1>
-		
-
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><div id="timeline-container"></div>
-
-<style>
+@keyframes glow {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
 
 /* 修正后的正确动画声明 */
 .heart-divider {
@@ -656,85 +444,7 @@
 
 </style>
 
-<script>
-// 缓存版本号（每次修改脚本后更新）
-const CACHE_VERSION = 'v2';
-
-// 智能加载控制器
-function initTimeline() {
-  const container = document.getElementById('timeline-container');
-  if (!container) {
-    console.warn('找不到容器元素');
-    return;
-  }
-
-  let retries = 0;
-  
-  // 带缓存的请求
-  const fetchData = async () => {
-    try {
-      const url = `/love-list/data.json?cv=${CACHE_VERSION}&t=${Date.now()}`;
-      const res = await fetch(url);
-      if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-      return await res.json();
-    } catch (error) {
-      if (retries++ < 3) {
-        await new Promise(r => setTimeout(r, 2000));
-        return fetchData();
-      }
-      throw error;
-    }
-  };
-
-  // 渲染逻辑
-  const render = (data) => {
-    container.innerHTML = `
-      <div class="love-timeline">
-        ${data.timeline.map(section => `
-          <section>
-            <div class="heart-divider">${section.divider}</div>
-            <h3 class="year-title">${section.year} - ${section.title}</h3>
-            <ul class="task-list">
-              ${section.items.map(item => `
-                <li class="task-item ${item.status}">
-                  ${item.icon} 
-                  <span class="text">${item.text}</span>
-                  ${item.meta ? `<small>${item.meta}</small>` : ''}
-                </li>
-              `).join('')}
-            </ul>
-          </section>
-        `).join('')}
-      </div>
-    `;
-  };
-
-  // 自动重试加载
-  const autoLoad = async () => {
-    try {
-      const data = await fetchData();
-      render(data);
-    } catch (error) {
-      console.error('加载失败:', error);
-      container.innerHTML = `<div class="error">加载失败，<a class="link"   href="javascript:location.reload()" >点击重试<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></div>`;
-    }
-  };
-
-  // 启动加载
-  if (document.readyState === 'complete') {
-    autoLoad();
-  } else {
-    document.addEventListener('DOMContentLoaded', autoLoad);
-    window.addEventListener('load', autoLoad);
-  }
-}
-
-// 立即执行 + Hexo实时重载兼容
-initTimeline();
-if (typeof hexoExtReload === 'function') {
-  hexoExtReload(initTimeline);
-}
-</script><script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
             var options = {
             thumbnail:true,
             selector: '.lightgallery'
@@ -744,206 +454,114 @@ if (typeof hexoExtReload === 'function') {
             lightGallery(item, options)
         }
         }</script>
-	</div>
 
-	<div class="page-template-comments">
-		
-	</div>
-</div>
-
-<div class="paginator">
-	
-</div>
-  
-			</div>
-
-			
-		</div>
-
-		<div class="main-content-footer">
-			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
-    <div class="info-container py-3 text-center">
+    
+      <div class="love-timeline">
         
-            <div class="customize-info my-1">我们是值得被爱的人</div>
-        
-        <div class="text-center">
-            &copy;
-            
-              <span>2023</span>
-              -
-            
-            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">djy&amp;lyy</a>
-            
-                
-                <p class="post-count space-x-0.5">
-                    <span>
-                        共撰写了 4 篇文章
-                    </span>
-                    
-                        <span>
-                            共 10.5k 字
-                        </span>
-                    
-                </p>
-            
-        </div>
-        
-            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
-            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
-                
-                    <span id="busuanzi_container_site_uv" class="lg:!block">
-                        <span class="text-sm">访问人数</span>
-                        <span id="busuanzi_value_site_uv"></span>
-                    </span>
-                
-                
-                    <span id="busuanzi_container_site_pv" class="lg:!block">
-                        <span class="text-sm">总访问量</span>
-                        <span id="busuanzi_value_site_pv"></span>
-                    </span>
-                
+          <section class="year-group">
+            <!-- 图片风格年份标题 -->
+            <div class="year-header">
+              <span class="year">2024</span>
+              <h3 class="era-title">烟火人间录</h3>
+              <span class="year-flower">🌸</span>
             </div>
+
+            <!-- 内容结构保持 -->
+            <div class="heart-divider">🌸🌊🍤</div>
+            <ul class="task-list">
+              
+                <li class="task-item done">
+                  <span class="icon">🧸</span>
+                  <div class="task-content">
+                    <span class="text">一起抓娃娃</span>
+                    
+                      <small class="meta">战利品：三只毛绒信使 | 抓钩精准度：87%</small>
+                    
+                  </div>
+                </li>
+              
+                <li class="task-item todo">
+                  <span class="icon">🦐</span>
+                  <div class="task-content">
+                    <span class="text">剥🦐给yy吃</span>
+                    
+                      <small class="meta">目标：完整保留虾尾造型 | 蘸料配方：蜂蜜芥末+柠檬汁</small>
+                    
+                  </div>
+                </li>
+              
+                <li class="task-item todo">
+                  <span class="icon">🏖️</span>
+                  <div class="task-content">
+                    <span class="text">一起去沙滩玩</span>
+                    
+                      <small class="meta">装备清单：情侣款防晒衫 | 必拍场景：贝壳项链DIY</small>
+                    
+                  </div>
+                </li>
+              
+                <li class="task-item todo">
+                  <span class="icon">🍗</span>
+                  <div class="task-content">
+                    <span class="text">一起做可乐鸡翅</span>
+                    
+                      <small class="meta">秘制配方：零度可乐+桂花蜜 | 腌制时长：2小时</small>
+                    
+                  </div>
+                </li>
+              
+            </ul>
+          </section>
         
-        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
-           
-            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="">Redefine v2.8.2</a></span>
-        </div>
-        
-        
-            <div>
-                网站已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+          <section class="year-group">
+            <!-- 图片风格年份标题 -->
+            <div class="year-header">
+              <span class="year">2023</span>
+              <h3 class="era-title">星月童话纪</h3>
+              <span class="year-flower">🌸</span>
             </div>
+
+            <!-- 内容结构保持 -->
+            <div class="heart-divider">🌌✨🌠</div>
+            <ul class="task-list">
+              
+                <li class="task-item done">
+                  <span class="icon">💇♀️</span>
+                  <div class="task-content">
+                    <span class="text">帮yy吹头发</span>
+                    
+                      <small class="meta">成就：卷发棒使用大师 | 最速记录：8分钟造型</small>
+                    
+                  </div>
+                </li>
+              
+                <li class="task-item done">
+                  <span class="icon">🌶️</span>
+                  <div class="task-content">
+                    <span class="text">吃五谷鸡爪</span>
+                    
+                      <small class="meta">辣度等级：微醺三星 | 解辣神器：手作冰镇杨梅汁</small>
+                    
+                  </div>
+                </li>
+              
+                <li class="task-item done">
+                  <span class="icon">🚶♀️</span>
+                  <div class="task-content">
+                    <span class="text">一起逛小吃街</span>
+                    
+                      <small class="meta">隐藏成就：连吃7摊不重样 | 推荐摊位：爆浆芝士虾球</small>
+                    
+                  </div>
+                </li>
+              
+            </ul>
+          </section>
         
-        
-            <script data-swup-reload-script>
-                try {
-                    function odometer_init() {
-                    const elements = document.querySelectorAll('.odometer');
-                    elements.forEach(el => {
-                        new Odometer({
-                            el,
-                            format: '( ddd).dd',
-                            duration: 200
-                        });
-                    });
-                    }
-                    odometer_init();
-                } catch (error) {}
-            </script>
-        
-        
-        
-    </div>  
-</footer>
-		</div>
-	</div>
-
-	
-
-	<div class="right-side-tools-container">
-		<div class="side-tools-container">
-	<ul class="hidden-tools-list">
-		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
-			<i class="fa-regular fa-magnifying-glass-plus"></i>
-		</li>
-
-		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
-			<i class="fa-regular fa-magnifying-glass-minus"></i>
-		</li>
-
-		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
-			<i class="fa-regular fa-moon"></i>
-		</li>
-
-		<!-- rss -->
-		
-
-		
-
-		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
-			<i class="fa-regular fa-arrow-down"></i>
-		</li>
-	</ul>
-
-	<ul class="visible-tools-list">
-		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
-			<i class="fa-regular fa-cog fa-spin"></i>
-		</li>
-		
-		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
-			<i class="arrow-up fas fa-arrow-up"></i>
-			<span class="percent"></span>
-		</li>
-		
-		
-	</ul>
-</div>
-	</div>
-
-	<div class="image-viewer-container">
-	<img src="">
-</div>
-
-	
-	<div class="search-pop-overlay">
-	<div class="popup search-popup">
-		<div class="search-header">
-			<span class="search-input-field-pre">
-				<i class="fa-solid fa-keyboard"></i>
-			</span>
-			<div class="search-input-container">
-				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="站内搜索您需要的内容..." spellcheck="false" type="search" class="search-input">
-			</div>
-			<span class="popup-btn-close">
-				<i class="fa-solid fa-times"></i>
-			</span>
-		</div>
-		<div id="search-result">
-			<div id="no-result">
-				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
-			</div>
-		</div>
-	</div>
-</div>
-	
-
+      </div>
+    
+  </article>
 </main>
-
-
-
-<script src="/js/build/libs/Swup.min.js"></script>
-
-<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
-
-<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
-
-<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
-
-<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
-
-<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
-
-<script>
-    const swup = new Swup({
-        plugins: [
-            new SwupScriptsPlugin({
-                optin: true,
-            }),
-            new SwupProgressPlugin(),
-            new SwupScrollPlugin({
-                offset: 80,
-            }),
-            new SwupSlideTheme({
-                mainElement: ".main-content-body",
-            }),
-            new SwupPreloadPlugin(),
-        ],
-        containers: ["#swup"],
-    });
-</script>
-
-
-
 	
 <script src="/js/build/tools/imageViewer.js" type="module"></script>
 
