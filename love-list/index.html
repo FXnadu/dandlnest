@@ -29,8 +29,8 @@
 <meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/redefine-og.webp">
-<meta property="article:published_time" content="2025-02-27T11:18:14.636Z">
-<meta property="article:modified_time" content="2025-02-27T11:18:14.633Z">
+<meta property="article:published_time" content="2025-02-27T12:14:25.758Z">
+<meta property="article:modified_time" content="2025-02-27T12:14:25.754Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/redefine-og.webp">
@@ -463,9 +463,7 @@
 		<h1>🍬 西窗盐糖纪</h1>
 		
 
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><div id="timeline-container">
-  <div class="loading">加载中...❤️</div>
-</div>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><div id="timeline-container"></div>
 
 <style>
 
@@ -659,18 +657,41 @@
 </style>
 
 <script>
-// 动态加载优化版
-document.addEventListener('DOMContentLoaded', () => {
-  fetch('/love-list/data.json')
-    .then(res => {
-      if (!res.ok) throw new Error('数据加载失败');
-      return res.json();
-    })
-    .then(data => {
-      const container = document.getElementById('timeline-container');
-      container.innerHTML = `
-        <div class="love-timeline">
-          ${data.timeline.map(section => `
+// 缓存版本号（每次修改脚本后更新）
+const CACHE_VERSION = 'v2';
+
+// 智能加载控制器
+function initTimeline() {
+  const container = document.getElementById('timeline-container');
+  if (!container) {
+    console.warn('找不到容器元素');
+    return;
+  }
+
+  let retries = 0;
+  
+  // 带缓存的请求
+  const fetchData = async () => {
+    try {
+      const url = `/love-list/data.json?cv=${CACHE_VERSION}&t=${Date.now()}`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+      return await res.json();
+    } catch (error) {
+      if (retries++ < 3) {
+        await new Promise(r => setTimeout(r, 2000));
+        return fetchData();
+      }
+      throw error;
+    }
+  };
+
+  // 渲染逻辑
+  const render = (data) => {
+    container.innerHTML = `
+      <div class="love-timeline">
+        ${data.timeline.map(section => `
+          <section>
             <div class="heart-divider">${section.divider}</div>
             <h3 class="year-title">${section.year} - ${section.title}</h3>
             <ul class="task-list">
@@ -682,16 +703,37 @@ document.addEventListener('DOMContentLoaded', () => {
                 </li>
               `).join('')}
             </ul>
-          `).join('')}
-        </div>
-      `;
-    })
-    .catch(error => {
-      document.getElementById('timeline-container').innerHTML = `
-        <div class="error">❤️ 数据加载失败，请刷新重试</div>
-      `;
-    });
-});
+          </section>
+        `).join('')}
+      </div>
+    `;
+  };
+
+  // 自动重试加载
+  const autoLoad = async () => {
+    try {
+      const data = await fetchData();
+      render(data);
+    } catch (error) {
+      console.error('加载失败:', error);
+      container.innerHTML = `<div class="error">加载失败，<a class="link"   href="javascript:location.reload()" >点击重试<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></div>`;
+    }
+  };
+
+  // 启动加载
+  if (document.readyState === 'complete') {
+    autoLoad();
+  } else {
+    document.addEventListener('DOMContentLoaded', autoLoad);
+    window.addEventListener('load', autoLoad);
+  }
+}
+
+// 立即执行 + Hexo实时重载兼容
+initTimeline();
+if (typeof hexoExtReload === 'function') {
+  hexoExtReload(initTimeline);
+}
 </script><script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
             var options = {
             thumbnail:true,
@@ -764,7 +806,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
            
-            <span class="text-sm lg:block">テーマ&nbsp;<a class="text-base" target="_blank" href="">Redefine v2.8.2</a></span>
+            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="">Redefine v2.8.2</a></span>
         </div>
         
         
