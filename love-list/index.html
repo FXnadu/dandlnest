@@ -29,8 +29,8 @@
 <meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/redefine-og.webp">
-<meta property="article:published_time" content="2025-02-28T04:49:10.344Z">
-<meta property="article:modified_time" content="2025-02-27T15:12:09.913Z">
+<meta property="article:published_time" content="2025-02-28T05:12:54.962Z">
+<meta property="article:modified_time" content="2025-02-28T05:12:54.956Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/redefine-og.webp">
@@ -113,6 +113,7 @@
 <body>
 	<!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
   <style>
     /* 返回按钮核心样式 */
@@ -122,7 +123,7 @@
       left: 3.5rem;
       z-index: 999;
       opacity: 0.9;
-      transition: 
+      transition:
         transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28),
         opacity 0.4s ease;
     }
@@ -159,9 +160,11 @@
       opacity: 1;
       transform: translateY(-1px);
     }
+
     .back-button:hover .arrow-icon {
       transform: translateX(-3px);
     }
+
     .back-button:hover .btn-text {
       text-shadow: 0 2px 8px rgba(236, 124, 157, 0.3);
     }
@@ -184,15 +187,373 @@
         left: 1.8rem;
         top: 1.8rem;
       }
+
       .btn-content {
         padding: 0.6rem 1.2rem;
         border-radius: 2rem;
       }
+
       .btn-text {
         font-size: 0.85rem;
       }
+
       .content.adjusted-padding {
         padding-top: 5rem;
+      }
+    }
+
+    .year-header {
+      display: flex;
+      align-items: baseline;
+      gap: 0.8rem;
+      margin: 3rem 0 1.5rem;
+      /* 顶部间距扩大至3rem */
+      padding: 0.8rem 0;
+      border-bottom: 1px solid rgba(255, 107, 107, 0.1);
+      position: relative;
+    }
+
+    /* 首个年份标题减少顶部间距 */
+    .love-timeline>.year-group:first-child .year-header {
+      margin-top: 1.5rem;
+    }
+
+    /* 年份数字 */
+    .year {
+      font: 600 1.7rem/1 'Courier New', monospace;
+      color: #ff6b6b;
+      position: relative;
+      padding-right: 1.5rem;
+      letter-spacing: -0.05em;
+    }
+
+    .year::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 4px;
+      height: 4px;
+      background: #ffb3b3;
+      border-radius: 50%;
+    }
+
+    /* 阶段标题 */
+    .era-title {
+      font: 500 1.6rem/1.3 'Microsoft YaHei';
+      color: #444;
+      position: relative;
+      padding-left: 1.2rem;
+      margin-top: 0.5rem;
+      /* 增加与下方内容的间距 */
+    }
+
+    .era-title::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 3px;
+      height: 1.2em;
+      background: linear-gradient(180deg,
+          rgba(255, 107, 107, 0.25) 0%,
+          rgba(255, 107, 107, 0.1) 100%);
+      border-radius: 2px;
+    }
+
+    /* 标题与内容区隔 */
+    .year-header+.task-list {
+      margin-top: 1.5rem;
+      /* 增大标题与列表间距 */
+    }
+
+    /* 移动端适配 */
+    @media (max-width: 768px) {
+      .year-header {
+        margin: 2rem 0 1.2rem;
+      }
+
+      .love-timeline>.year-group:first-child .year-header {
+        margin-top: 1rem;
+      }
+
+      .era-title::before {
+        height: 1em;
+        /* 缩小竖条高度适配移动端 */
+      }
+
+
+    }
+
+    /* 标题容器 */
+    .timeline-header {
+      text-align: center;
+      margin: 3rem 0 2rem;
+    }
+
+    /* 主标题-增加渐变光晕 */
+    .timeline-title {
+      font: 600 2.5em 'Microsoft YaHei', sans-serif;
+      color: #ff69b4;
+      /* 更改为标准粉红色 */
+      letter-spacing: 2px;
+      position: relative;
+      display: inline-block;
+      text-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+      background: linear-gradient(135deg, #ff69b4 30%, #ff99cc 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* 动态下划线-改为粉色泡泡效果 */
+    .timeline-title::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -12px;
+      width: 120%;
+      height: 8px;
+      background: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='10' cy='10' r='8' fill='%23ff99dd'/%3E%3Ccircle cx='30' cy='10' r='6' fill='%23ff77aa'/%3E%3Ccircle cx='50' cy='10' r='9' fill='%23ff99dd'/%3E%3Ccircle cx='70' cy='10' r='7' fill='%23ff77aa'/%3E%3Ccircle cx='90' cy='10' r='8' fill='%23ff99dd'/%3E%3C/svg%3E");
+
+      transform: translateX(-50%);
+      animation: bubbleMove 3s linear infinite;
+    }
+
+    @keyframes bubbleMove {
+      0% {
+        background-position: 0 0;
+      }
+
+      100% {
+        background-position: 100px 0;
+      }
+    }
+
+    /* 分隔符-粉紫色渐变 */
+    .title-divider {
+      background: linear-gradient(90deg, #ff99cc, #ff69b4, #ff99cc);
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 1.5em;
+      margin: 2rem 0;
+      animation: glow 2s ease-in-out infinite;
+    }
+
+    @keyframes glow {
+
+      0%,
+      100% {
+        opacity: 0.8;
+      }
+
+      50% {
+        opacity: 1;
+      }
+    }
+
+    /* 修正后的正确动画声明 */
+    .heart-divider {
+      --scale-factor: 1.02;
+      --breath-speed: 2.5s;
+      text-align: center;
+      margin: 2rem 0;
+      font-size: 2rem;
+      color: #ff6b6b;
+      animation: vertical-breath var(--breath-speed) ease-in-out infinite;
+      /* 修正动画名称 */
+      transform-origin: center center;
+    }
+
+    @keyframes vertical-breath {
+
+      /* 关键帧名称同步修改 */
+      0%,
+      100% {
+        transform: scale(0.98);
+        opacity: 0.96;
+        filter: drop-shadow(0 2px 4px rgba(255, 107, 107, 0.1));
+      }
+
+      50% {
+        transform: scale(var(--scale-factor));
+        opacity: 1;
+        filter: drop-shadow(0 4px 8px rgba(255, 107, 107, 0.3));
+      }
+    }
+
+    /* 移动端适配 */
+    @media (max-width: 768px) {
+      .heart-divider {
+        --scale-factor: 1.015;
+        --breath-speed: 3s;
+      }
+    }
+
+
+    #timeline-container ul,
+    #timeline-container ul li {
+      list-style: none !important;
+    }
+
+
+    /* 重置默认样式 */
+    #timeline-container ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    /* 核心容器 */
+    .love-timeline {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: linear-gradient(135deg, #fffaf0 0%, #fff5f5 100%);
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(255, 107, 107, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* 时间轴主线 */
+    .task-list {
+      border-left: 4px solid #ffd0d0;
+      padding-left: 30px;
+      margin-left: 15px;
+      position: relative;
+    }
+
+    /* 动态加载提示 */
+    .loading {
+      text-align: center;
+      font-size: 1.5rem;
+      color: #ff6b6b;
+      padding: 2rem;
+    }
+
+    /* 年份标题 */
+    .year-title {
+      font-family: '楷体', cursive;
+      font-size: 1.8rem;
+      color: #ff7676;
+      padding: 0.8rem 1.5rem;
+      background: rgba(255, 235, 235, 0.9);
+      border-radius: 30px;
+      display: inline-block;
+      margin: 1.5rem 0;
+      box-shadow: 3px 3px 10px rgba(255, 118, 118, 0.15);
+    }
+
+    /* 任务项增强样式 */
+    .task-item {
+      position: relative;
+      margin: 25px 0;
+      padding: 18px 20px 18px 70px;
+      border: 2px solid #ffe5e5;
+      border-radius: 12px;
+      background: #fff;
+      transition: all 0.3s ease;
+    }
+
+    /* 状态指示器 */
+    .task-item::before {
+      content: '';
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #fff0f0;
+      box-shadow: 0 3px 6px rgba(255, 107, 107, 0.2);
+    }
+
+    .task-item::after {
+      content: '◯';
+      position: absolute;
+      left: 27px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.5em;
+      color: #ff6b6b;
+    }
+
+    /* 完成状态 */
+    .task-item.done {
+      background: #f8fff8;
+      border-color: #c1e9c1;
+    }
+
+    .task-item.done::after {
+      content: '✔';
+      color: #6bff6b;
+      text-shadow: 0 0 8px rgba(107, 255, 107, 0.3);
+    }
+
+    /* 悬停效果 */
+    .task-item:hover {
+      transform: translateX(15px);
+      box-shadow: 0 8px 20px rgba(255, 107, 107, 0.15);
+    }
+
+    /* 元信息样式 */
+    .task-item small {
+      display: block;
+      margin-top: 8px;
+      color: #666;
+      font-size: 0.9em;
+      padding-left: 1em;
+      position: relative;
+    }
+
+    .task-item small::before {
+      content: "▹";
+      margin-right: 0.5em;
+      color: #ff6b6b;
+    }
+
+    /* 响应式优化 */
+    @media (max-width: 768px) {
+      .love-timeline {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+
+      .task-item {
+        padding-left: 60px;
+        margin: 20px 0;
+      }
+
+      .task-item::before {
+        left: 10px;
+        width: 35px;
+        height: 35px;
+      }
+
+      .task-item::after {
+        left: 20px;
+      }
+    }
+
+    @keyframes fallingHearts {
+      0% {
+        transform: translate(-50%, -100%);
+        opacity: 0;
+      }
+
+      20% {
+        opacity: 0.3;
+      }
+
+      80% {
+        opacity: 0.3;
+      }
+
+      100% {
+        transform: translate(50%, 100vh);
+        opacity: 0;
       }
     }
   </style>
@@ -202,341 +563,28 @@
   <!-- 返回按钮 -->
   <a href="/" class="back-button">
     <div class="btn-content">
-      <svg class="arrow-icon" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
-      <span class="btn-text">🏡 回到甜蜜小屋</span>
+      <svg class="arrow-icon" viewBox="0 0 24 24">
+        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+      </svg>
+      <span class="btn-text">
+        🏡 回到甜蜜小屋
+      </span>
     </div>
   </a>
 
   <!-- 页面内容 -->
   <main class="content adjusted-padding">
     <header class="timeline-header">
-      <h1 class="timeline-title">🍬 西窗盐糖纪</h1>
+      <h1 class="timeline-title">
+        🍬 西窗盐糖纪
+      </h1>
       <div class="title-divider">✧ ⁺ ⸰ ⋆ ⸰ ⁺ ✧</div>
     </header>
 
     <article>
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><style>
 
-/* 年份标题容器 */
-.year-header {
-  display: flex;
-  align-items: baseline;
-  gap: 0.8rem;
-  margin: 3rem 0 1.5rem; /* 顶部间距扩大至3rem */
-  padding: 0.8rem 0;
-  border-bottom: 1px solid rgba(255,107,107,0.1);
-  position: relative;
-}
 
-/* 首个年份标题减少顶部间距 */
-.love-timeline > .year-group:first-child .year-header {
-  margin-top: 1.5rem;
-}
-
-/* 年份数字 */
-.year {
-  font: 600 1.7rem/1 'Courier New', monospace;
-  color: #ff6b6b;
-  position: relative;
-  padding-right: 1.5rem;
-  letter-spacing: -0.05em;
-}
-
-.year::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 4px;
-  height: 4px;
-  background: #ffb3b3;
-  border-radius: 50%;
-}
-
-/* 阶段标题 */
-.era-title {
-  font: 500 1.6rem/1.3 'Microsoft YaHei';
-  color: #444;
-  position: relative;
-  padding-left: 1.2rem;
-  margin-top: 0.5rem; /* 增加与下方内容的间距 */
-}
-
-.era-title::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 3px;
-  height: 1.2em;
-  background: linear-gradient(
-    180deg,
-    rgba(255,107,107,0.25) 0%,
-    rgba(255,107,107,0.1) 100%
-  );
-  border-radius: 2px;
-}
-
-/* 标题与内容区隔 */
-.year-header + .task-list {
-  margin-top: 1.5rem; /* 增大标题与列表间距 */
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-  .year-header {
-    margin: 2rem 0 1.2rem;
-  }
-  
-  .love-timeline > .year-group:first-child .year-header {
-    margin-top: 1rem;
-  }
-  
-  .era-title::before {
-    height: 1em; /* 缩小竖条高度适配移动端 */
-  }
-}
-
-/* 标题容器 */
-.timeline-header {
-  text-align: center;
-  margin: 3rem 0 2rem;
-}
-
-/* 主标题-增加渐变光晕 */
-.timeline-title {
-  font: 600 2.5em 'Microsoft YaHei', sans-serif;
-  color: #ff69b4; /* 更改为标准粉红色 */
-  letter-spacing: 2px;
-  position: relative;
-  display: inline-block;
-  text-shadow: 0 0 20px rgba(255,105,180,0.3);
-  background: linear-gradient(135deg, #ff69b4 30%, #ff99cc 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* 动态下划线-改为粉色泡泡效果 */
-.timeline-title::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: -12px;
-  width: 120%;
-  height: 8px;
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='10' cy='10' r='8' fill='%23ff99dd'/%3E%3Ccircle cx='30' cy='10' r='6' fill='%23ff77aa'/%3E%3Ccircle cx='50' cy='10' r='9' fill='%23ff99dd'/%3E%3Ccircle cx='70' cy='10' r='7' fill='%23ff77aa'/%3E%3Ccircle cx='90' cy='10' r='8' fill='%23ff99dd'/%3E%3C/svg%3E");
-  
-  transform: translateX(-50%);
-  animation: bubbleMove 3s linear infinite;
-}
-
-@keyframes bubbleMove {
-  0% { background-position: 0 0; }
-  100% { background-position: 100px 0; }
-}
-
-/* 分隔符-粉紫色渐变 */
-.title-divider {
-  background: linear-gradient(90deg, #ff99cc, #ff69b4, #ff99cc);
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 1.5em;
-  margin: 2rem 0;
-  animation: glow 2s ease-in-out infinite;
-}
-
-@keyframes glow {
-  0%, 100% { opacity: 0.8; }
-  50% { opacity: 1; }
-}
-
-/* 修正后的正确动画声明 */
-.heart-divider {
-  --scale-factor: 1.02;
-  --breath-speed: 2.5s;
-  text-align: center;
-  margin: 2rem 0;
-  font-size: 2rem;
-  color: #ff6b6b;
-  animation: vertical-breath var(--breath-speed) ease-in-out infinite; /* 修正动画名称 */
-  transform-origin: center center;
-}
-
-@keyframes vertical-breath { /* 关键帧名称同步修改 */
-  0%, 100% { 
-    transform: scale(0.98);
-    opacity: 0.96;
-    filter: drop-shadow(0 2px 4px rgba(255,107,107,0.1));
-  }
-  50% { 
-    transform: scale(var(--scale-factor));
-    opacity: 1;
-    filter: drop-shadow(0 4px 8px rgba(255,107,107,0.3));
-  }
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-  .heart-divider {
-    --scale-factor: 1.015;
-    --breath-speed: 3s;
-  }
-}
-
-
-#timeline-container ul,
-#timeline-container ul li {
-  list-style: none !important;
-}
-
-
-/* 重置默认样式 */
-#timeline-container ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-/* 核心容器 */
-.love-timeline {
-  max-width: 800px;
-  margin: 3rem auto;
-  padding: 2rem;
-  background: linear-gradient(135deg, #fffaf0 0%, #fff5f5 100%);
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(255,107,107,0.1);
-  position: relative;
-  overflow: hidden;
-}
-
-/* 时间轴主线 */
-.task-list {
-  border-left: 4px solid #ffd0d0;
-  padding-left: 30px;
-  margin-left: 15px;
-  position: relative;
-}
-
-/* 动态加载提示 */
-.loading {
-  text-align: center;
-  font-size: 1.5rem;
-  color: #ff6b6b;
-  padding: 2rem;
-}
-
-/* 年份标题 */
-.year-title {
-  font-family: '楷体', cursive;
-  font-size: 1.8rem;
-  color: #ff7676;
-  padding: 0.8rem 1.5rem;
-  background: rgba(255,235,235,0.9);
-  border-radius: 30px;
-  display: inline-block;
-  margin: 1.5rem 0;
-  box-shadow: 3px 3px 10px rgba(255,118,118,0.15);
-}
-
-/* 任务项增强样式 */
-.task-item {
-  position: relative;
-  margin: 25px 0;
-  padding: 18px 20px 18px 70px;
-  border: 2px solid #ffe5e5;
-  border-radius: 12px;
-  background: #fff;
-  transition: all 0.3s ease;
-}
-
-/* 状态指示器 */
-.task-item::before {
-  content: '';
-  position: absolute;
-  left: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #fff0f0;
-  box-shadow: 0 3px 6px rgba(255,107,107,0.2);
-}
-
-.task-item::after {
-  content: '◯';
-  position: absolute;
-  left: 27px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 1.5em;
-  color: #ff6b6b;
-}
-
-/* 完成状态 */
-.task-item.done {
-  background: #f8fff8;
-  border-color: #c1e9c1;
-}
-
-.task-item.done::after {
-  content: '✔';
-  color: #6bff6b;
-  text-shadow: 0 0 8px rgba(107,255,107,0.3);
-}
-
-/* 悬停效果 */
-.task-item:hover {
-  transform: translateX(15px);
-  box-shadow: 0 8px 20px rgba(255,107,107,0.15);
-}
-
-/* 元信息样式 */
-.task-item small {
-  display: block;
-  margin-top: 8px;
-  color: #666;
-  font-size: 0.9em;
-  padding-left: 1em;
-  position: relative;
-}
-
-.task-item small::before {
-  content: "▹";
-  margin-right: 0.5em;
-  color: #ff6b6b;
-}
-
-/* 响应式优化 */
-@media (max-width: 768px) {
-  .love-timeline {
-    margin: 1rem;
-    padding: 1.5rem;
-  }
-  
-  .task-item {
-    padding-left: 60px;
-    margin: 20px 0;
-  }
-  
-  .task-item::before {
-    left: 10px;
-    width: 35px;
-    height: 35px;
-  }
-  
-  .task-item::after {
-    left: 20px;
-  }
-}
-
-@keyframes fallingHearts {
-  0% { transform: translate(-50%, -100%); opacity: 0; }
-  20% { opacity: 0.3; }
-  80% { opacity: 0.3; }
-  100% { transform: translate(50%, 100vh); opacity: 0; }
-}
 
 
 </style>
@@ -552,145 +600,199 @@
         }
         }</script>
 
-      
-        <div class="love-timeline">
+        
+          <div class="love-timeline">
+            
+              <section class="year-group">
+                <div class="year-header">
+                  <span class="year">
+                    2024
+                  </span>
+                  <h3 class="era-title">
+                    烟火人间录
+                  </h3>
+                </div>
+
+                <div class="heart-divider">
+                  🌸🌊🍤
+                </div>
+
+                <ul class="task-list">
+                  
+                    <li class="task-item done">
+                      <span class="icon">
+                        🧸
+                      </span>
+                      <div class="task-content">
+                        <span class="text">
+                          一起抓娃娃
+                        </span>
+                        
+                          <small class="meta">
+                            战利品：三只毛绒信使 | 抓钩精准度：87%
+                          </small>
+                          
+                      </div>
+                    </li>
+                    
+                    <li class="task-item todo">
+                      <span class="icon">
+                        🦐
+                      </span>
+                      <div class="task-content">
+                        <span class="text">
+                          剥🦐给yy吃
+                        </span>
+                        
+                          <small class="meta">
+                            目标：完整保留虾尾造型 | 蘸料配方：蜂蜜芥末+柠檬汁
+                          </small>
+                          
+                      </div>
+                    </li>
+                    
+                    <li class="task-item todo">
+                      <span class="icon">
+                        🏖️
+                      </span>
+                      <div class="task-content">
+                        <span class="text">
+                          一起去沙滩玩
+                        </span>
+                        
+                          <small class="meta">
+                            装备清单：情侣款防晒衫 | 必拍场景：贝壳项链DIY
+                          </small>
+                          
+                      </div>
+                    </li>
+                    
+                    <li class="task-item todo">
+                      <span class="icon">
+                        🍗
+                      </span>
+                      <div class="task-content">
+                        <span class="text">
+                          一起做可乐鸡翅
+                        </span>
+                        
+                          <small class="meta">
+                            秘制配方：零度可乐+桂花蜜 | 腌制时长：2小时
+                          </small>
+                          
+                      </div>
+                    </li>
+                    
+                </ul>
+              </section>
+              
+              <section class="year-group">
+                <div class="year-header">
+                  <span class="year">
+                    2023
+                  </span>
+                  <h3 class="era-title">
+                    星月童话纪
+                  </h3>
+                </div>
+
+                <div class="heart-divider">
+                  🌌✨🌠
+                </div>
+
+                <ul class="task-list">
+                  
+                    <li class="task-item done">
+                      <span class="icon">
+                        💇♀️
+                      </span>
+                      <div class="task-content">
+                        <span class="text">
+                          帮yy吹头发
+                        </span>
+                        
+                          <small class="meta">
+                            成就：卷发棒使用大师 | 最速记录：8分钟造型
+                          </small>
+                          
+                      </div>
+                    </li>
+                    
+                    <li class="task-item done">
+                      <span class="icon">
+                        🌶️
+                      </span>
+                      <div class="task-content">
+                        <span class="text">
+                          吃五谷鸡爪
+                        </span>
+                        
+                          <small class="meta">
+                            辣度等级：微醺三星 | 解辣神器：手作冰镇杨梅汁
+                          </small>
+                          
+                      </div>
+                    </li>
+                    
+                    <li class="task-item done">
+                      <span class="icon">
+                        🚶♀️
+                      </span>
+                      <div class="task-content">
+                        <span class="text">
+                          一起逛小吃街
+                        </span>
+                        
+                          <small class="meta">
+                            隐藏成就：连吃7摊不重样 | 推荐摊位：爆浆芝士虾球
+                          </small>
+                          
+                      </div>
+                    </li>
+                    
+                </ul>
+              </section>
+              
+          </div>
           
-            <section class="year-group">
-              <div class="year-header">
-                <span class="year">2024</span>
-                <h3 class="era-title">烟火人间录</h3>
-              </div>
-              
-              <div class="heart-divider">🌸🌊🍤</div>
-              
-              <ul class="task-list">
-                
-                  <li class="task-item done">
-                    <span class="icon">🧸</span>
-                    <div class="task-content">
-                      <span class="text">一起抓娃娃</span>
-                      
-                        <small class="meta">战利品：三只毛绒信使 | 抓钩精准度：87%</small>
-                      
-                    </div>
-                  </li>
-                
-                  <li class="task-item todo">
-                    <span class="icon">🦐</span>
-                    <div class="task-content">
-                      <span class="text">剥🦐给yy吃</span>
-                      
-                        <small class="meta">目标：完整保留虾尾造型 | 蘸料配方：蜂蜜芥末+柠檬汁</small>
-                      
-                    </div>
-                  </li>
-                
-                  <li class="task-item todo">
-                    <span class="icon">🏖️</span>
-                    <div class="task-content">
-                      <span class="text">一起去沙滩玩</span>
-                      
-                        <small class="meta">装备清单：情侣款防晒衫 | 必拍场景：贝壳项链DIY</small>
-                      
-                    </div>
-                  </li>
-                
-                  <li class="task-item todo">
-                    <span class="icon">🍗</span>
-                    <div class="task-content">
-                      <span class="text">一起做可乐鸡翅</span>
-                      
-                        <small class="meta">秘制配方：零度可乐+桂花蜜 | 腌制时长：2小时</small>
-                      
-                    </div>
-                  </li>
-                
-              </ul>
-            </section>
-          
-            <section class="year-group">
-              <div class="year-header">
-                <span class="year">2023</span>
-                <h3 class="era-title">星月童话纪</h3>
-              </div>
-              
-              <div class="heart-divider">🌌✨🌠</div>
-              
-              <ul class="task-list">
-                
-                  <li class="task-item done">
-                    <span class="icon">💇♀️</span>
-                    <div class="task-content">
-                      <span class="text">帮yy吹头发</span>
-                      
-                        <small class="meta">成就：卷发棒使用大师 | 最速记录：8分钟造型</small>
-                      
-                    </div>
-                  </li>
-                
-                  <li class="task-item done">
-                    <span class="icon">🌶️</span>
-                    <div class="task-content">
-                      <span class="text">吃五谷鸡爪</span>
-                      
-                        <small class="meta">辣度等级：微醺三星 | 解辣神器：手作冰镇杨梅汁</small>
-                      
-                    </div>
-                  </li>
-                
-                  <li class="task-item done">
-                    <span class="icon">🚶♀️</span>
-                    <div class="task-content">
-                      <span class="text">一起逛小吃街</span>
-                      
-                        <small class="meta">隐藏成就：连吃7摊不重样 | 推荐摊位：爆浆芝士虾球</small>
-                      
-                    </div>
-                  </li>
-                
-              </ul>
-            </section>
-          
-        </div>
-      
     </article>
   </main>
 
   <script>
-    (function() {
+    (function () {
       const backButton = document.querySelector('.back-button')
       let state = {
         lastScroll: 0,
         isHiding: false,
         lockTimer: null
       }
-    
+
       // 状态管理器
       function updateState(scrollTop) {
         const SCROLL_THRESHOLD = 80
         const isOverThreshold = scrollTop > SCROLL_THRESHOLD
         const isScrollingDown = scrollTop > state.lastScroll
-        
+
         // 状态决策树
         if (isScrollingDown && isOverThreshold && !state.isHiding) {
           enterHidingState()
         } else if (!isScrollingDown || scrollTop < SCROLL_THRESHOLD) {
           exitHidingState()
         }
-        
+
         state.lastScroll = scrollTop
       }
-    
+
       // 进入隐藏状态
       function enterHidingState() {
         state.isHiding = true
         backButton.classList.add('hidden')
         clearTimeout(state.lockTimer)
         state.lockTimer = setTimeout(() => {
-          state.isHiding = false 
+          state.isHiding = false
         }, 1200) // 状态锁定1.2秒
       }
-    
+
       // 退出隐藏状态
       function exitHidingState() {
         if (!state.isHiding) return
@@ -698,18 +800,18 @@
         state.isHiding = false
         clearTimeout(state.lockTimer)
       }
-    
+
       // 增强型滚动处理
       function handleScroll() {
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop
         updateState(scrollTop)
-        
+
         // 到达页面顶部强制退出
         if (scrollTop === 0) {
           exitHidingState()
         }
       }
-    
+
       // 智能节流器
       const throttleScroll = (fn, delay) => {
         let last = 0
@@ -720,16 +822,16 @@
           fn(...args)
         }
       }
-    
+
       // 事件监听
       window.addEventListener('scroll', throttleScroll(handleScroll, 20), { passive: true })
-      
+
       // 移动端特殊处理
       let touchStart = 0
       window.addEventListener('touchstart', e => {
         touchStart = e.touches[0].pageY
       }, { passive: true })
-    
+
       window.addEventListener('touchend', () => {
         if (state.isHiding) {
           // 触摸结束后维持隐藏状态1秒
@@ -740,8 +842,9 @@
         }
       }, { passive: true })
     })()
-    </script>
+  </script>
 </body>
+
 </html>
 	
 <script src="/js/build/tools/imageViewer.js" type="module"></script>
