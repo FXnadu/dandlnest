@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2025/01/21/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+    <title>dark的个人喜好</title>
+    <url>/2024/03/16/dark-hobby/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><h1 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h1><p><strong>白 –&gt; 红 –&gt; 黑 –&gt; 紫 –&gt;橙 –&gt;绿</strong></p>
+<p>白色算是我最喜欢的颜色，无论买什么东西，我都喜欢先看白色的款式，其次才会是其他的颜色，只要搭配合理，我认为所有的颜色都会非常好看。</p>
+<h1 id="食品"><a href="#食品" class="headerlink" title="食品"></a>食品</h1><p>不吃咸的辣的，少吃甜的，喜欢酸甜的</p>
+<h2 id="我的个人不受欢迎食物清单"><a href="#我的个人不受欢迎食物清单" class="headerlink" title="我的个人不受欢迎食物清单"></a>我的个人不受欢迎食物清单</h2><ol>
+<li>饼干薯片不敢吃，上火又干。</li>
+<li>辣条小时候吃到肠胃炎。</li>
+<li>高糖饮料：粘稠的糖在喉咙停留真的非常难受。</li>
+<li>牛奶：对脾胃不好。</li>
+</ol>
+<p>总结：不是喜欢深加工的膨化食品，不喜欢吃高糖高高盐</p>
+<h1 id="我的个人受欢迎食物清单"><a href="#我的个人受欢迎食物清单" class="headerlink" title="我的个人受欢迎食物清单"></a>我的个人受欢迎食物清单</h1><p>山药，葡萄，80%浓度以上的黑巧克力，香菇，坚果，柑橘类，栗子，杏仁霜，海带，海鲜，牛肉，鸡肉，虾，鱼，小麦胚芽，亚麻籽，蕨菜，马齿苋，红枣，西红柿，红豆，赤小豆，白扁豆，冬瓜，丝瓜，蜂蜜，银耳，牡蛎，中药茶 ，…</p>
+<h1 id="电子产品"><a href="#电子产品" class="headerlink" title="电子产品"></a>电子产品</h1><p>键盘，鼠标，台灯，充电宝 … 大多数电子产品都很喜欢，手机充电线都能收藏，电灯都可以研究，但是电子产品普遍不会很便宜，但是我必须说的是，我不会买那些看起来有用的东西实质上没用的东西。</p>
+<h1 id="关于护肤品"><a href="#关于护肤品" class="headerlink" title="关于护肤品"></a>关于护肤品</h1><p>能保湿就好</p>
+<h2 id="关于衣服"><a href="#关于衣服" class="headerlink" title="关于衣服"></a>关于衣服</h2><p>穿着舒适就好，并不会追求流行的元素。</p>
 <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
             var options = {
             thumbnail:true,
@@ -26,6 +27,12 @@
             lightGallery(item, options)
         }
         }</script>]]></content>
+      <categories>
+        <category>归档</category>
+      </categories>
+      <tags>
+        <tag>2024</tag>
+      </tags>
   </entry>
   <entry>
     <title>中国性文化史</title>
@@ -184,61 +191,736 @@
       </tags>
   </entry>
   <entry>
-    <title>关于我们</title>
-    <url>/2024/02/24/hello/</url>
-    <content><![CDATA[
-<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="6e544030537d75f3dae013a66eba75be19d09c29fbd1d0cacdb84966bb01b961">5844f566621fccb9c583f0174433e530e09a108bad5f2e96e71e124b18dbcbab4f40d5465de1fd3e72796053f7fda502484da0aed50af402ed8338b9c998beeb120679d72bc2e24e87adbd7c71b4d8fcefd8b423def6e1e6e105613a95d751fa3ed19b42a7d2bfa300f306f7728d5b6f502dd0712899938b3bc0140321ffd47ed91e9926678d1965915a3abf27e0b5c4b29c100c207c91d3d933e5d878d8b2f1e94e05e2abfe69a0bc47eea26cb137a7c4b48408e9f7ff00aa251c31e4315b560db35d85a1d6b40a31930115a5f210ecef028b83cbbf039e51879ec8b4c4eb4832ffd0a3e6e31136089357156b8ef73c6154fca07d060bc48deff6fa4cf977dc2242d9dd8a01e12d9d4c5f6dcfa1ac4dffb3a878cd4fdceb421252cad16456d63ada02006d5005c104781e320386c4d695480c3c22847c25d20ebfd2048008f38d334add3af87c8342f0997331a644d6c421bb340680d8fbd971653622076764cc95f82b01abe826f36d8820307eac1b65f9382ed01bfbce45fec04f574e6f9015614da953413e73f5ad031caf69335304def652fa95d4964bb5a24430e394d482da70db7bfdf9fa408db4e5eafdfd2b35f9d0d69d617e4ed1e56b291112896a31c013b4020dce1c567a75f4061a6ca78c55362f96de6b7f312ab9d99adb8da20a0a1df1c82b70662e82beca8ddddd3f6ebb365ca759d9bb15f2855f7695d1e40983f4a475cdf99b5261a89f33fcff6733877828eaccee9310c5545618db549db8e962defbd6dc18c6196db6bb77bd221ad28872024c05190a42b98078b585f2adb7695bef0332933023770c6151b3d3b20a8afd4ca6e4fe8f6dbc7aaccaaae9f70b3f2ef977a2f6297b02a29505e06d0854556178a38b7d8939fed52a5f9980f3d548e81dd83abd2bb24ffa3ca2e6ff</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
-<script data-swup-reload-script type="module">
-import {initHBE} from "/js/plugins/hbe.js";
-  console.log("hexo-blog-encrypt: loaded.");
-    initHBE();
-</script>
-]]></content>
+    <title>说明书</title>
+    <url>/2023/05/19/test/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><ul>
+<li>防晒伞:特意挑了很久的, 因为伞是双层的,有点重,所以你用的时候,,打开就不要折叠回去了,因为我打开看了一下,费了好大的劲才折回去,我第一次买双层的伞,而且我好久没有买过手动的伞了,希望它好用:一开始我想给你买的是自动伞 ,但是我看我手里的这把自动伞,要非常大的力气才可以把它的伞骨收回去.又很容易坏掉,所以…不管怎么样,希望你能用到.</li>
+<li>防晒霜:如果你只戴帽子,夏天的太阳那么晒,手臂就会晒太阳la~🤒,所以你要是不方便打伞的时候,你就给手臂或者其他会晒到的地方涂一点防晒霜吧,我已经帮你试过了.重要的是,我买的这个是不可以涂脸的,不要涂脸哦.不管怎么样,我还是希望你尽量打伞哦,因为物理防晒才是最有效的防晒.而且,最重要的是,打伞不会那么热!💕</li>
+<li>粉粉的石英表: 可爱吧,是不是? 粉粉的样子,我觉得非常适合你粉扑扑的少女心,粉扑扑的少女.这个也是挑了很久哦,这是情侣款,咱们俩一人一个,但是女款的原本是卡其色的,我还是觉得你会更喜欢粉色,所以特意找了一个粉色款,而且刻度更容易看时间;如果平时考试老师不让戴电子表的话,石英表应该让戴吧.不管怎么样,希望你能喜欢.</li>
+<li>安心裤:我按照你的身高体重选的尺寸,不知道合不合适,如果不合适或者不好用,请务必告诉我,第一次买这个,没什么经验,我看了很多视频,很多评测,最后还悄咪咪的跑到别人文章评论区去看一些别人的使用体验,最后决定选的这个牌子.希望你可以用上.</li>
+<li>暖宝宝: 我用过一张啦,真的发热很久,其实我也不知道算不算久,因为也是平生第一次买暖宝宝,以前只在电视上看过.上面说了不可以贴在皮肤上,我差点就粘到肚子上了,😭呼~</li>
+<li>巧克力:58%的应该不会很苦,应该甜甜的吧,原则上说,所有东西我都会亲自尝试一遍才放心给你,但是完整一盒巧克力没了一块总感觉怪怪的,所以我就不尝了哦🫡.</li>
+<li>饼干: 在学校饿的时候可以吃,我知道不是很好吃的啦,不过对比一般的饼干相对营养好一点.</li>
+<li>爱心盒子里面有三种糖果,上面的是爱心棉花糖,这个很甜,少吃点,还有巧克力糖果,纯可可的,不过也是很甜,这两个不要吃太多,偶尔吃一个就好啦,我不喜欢拿拉菲草当装饰,所以就买了糖果代替装饰,送的拉菲草给我扔掉了,最下面那个奶糖是有钙的,既然你不喜欢吃钙片,那就吃点奶糖吧,也许也有点用🤔.</li>
+<li>艾草包:泡脚用的,每次放两三包就好了.本来我有艾叶和苦参的,我是自己买药材配的,不过想到你肯定觉得麻烦,也不知道该放多少,所以给你一包现成的好了🫡.</li>
+<li>还有一本漫画书,既然你不喜欢看字,那就给你一本可爱的漫画书吧,买的时候买了两本,不过很遗憾,另外一本的内容不是很乐观,里面有很多既看不懂又很无聊的内容,因为作者是美国的,所以有很多内容都看不懂,我必须批评,那本书真的是一本很失败的书😔.还好剩下的这本内容过关.</li>
+<li>最后是关于盒子,以后我再也不会买心形的盒子啦😭,我贴了很多贴纸,看起来很不好看,虽然一开始我的想法是觉得贴多一点贴纸会热闹一点,然而事与愿违,后面搞得很繁琐.</li>
+<li>关于内容,我不知道还有没有时间给你写一些什么,可能来不及给你写了.现在是2023&#x2F;5&#x2F;17&#x2F;21:33分.</li>
+<li>魔仙棒:使用方法:念出你的咒语把,世界等着你去拯救,千万不要让同学老师你是维护世界和平的魔仙美少女!</li>
+<li>梳子:拯救世界之前请务必打理好头发,拯救世界的魔仙美少女,梳子当然也是要粉扑扑的可爱颜色. 出发吧!守护世界的任务就交给你了!🫡</li>
+<li>不知道我有没有忘了什么,应该不会吧….</li>
+<li>噢我想起来了,还有一个毛绒娃娃,我抱着它睡了一次,然后就没碰过了.因为它毛茸茸的手感很好,刚拿回来那几天我一有空就像撸猫一样摸它,我怕我会把它摸到脱毛,所以我赶快把它收起来了,差点忘了🥰.</li>
+<li>巧克力!这个很重要,你拿到巧克力的时候,记得把它放冰箱冷藏,我也不知道快递车厢温度有多高,你拿到的时候如果融化了,放冰箱冷藏再吃,爱心盒子里面的巧克力糖也是,要冷藏起来,里面有一个冰袋,你千万不要当饮料喝噢(⊙o⊙)!</li>
+<li>红糖忘记买了(⊙o⊙*)</li>
+<li>你们家有石榴吗?我挺喜欢吃石榴的!我想买一点我喜欢吃的水果给你尝尝,但是看见你家果园子那么大.而且我喜欢吃的貌似你们家大部分都有😭</li>
+<li>噢, 对不起,我在电脑上的手稿 没来的及抄,时间紧迫.</li>
+</ul>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+            var options = {
+            thumbnail:true,
+            selector: '.lightgallery'
+        };
+        var galleries = document.getElementsByClassName("gallery");
+        for (let item of galleries) {
+            lightGallery(item, options)
+        }
+        }</script>]]></content>
       <categories>
-        <category>ceshi</category>
+        <category>归档</category>
       </categories>
       <tags>
-        <tag>b</tag>
+        <tag>2023</tag>
       </tags>
   </entry>
   <entry>
-    <title>旅途的开始...</title>
-    <url>/2025/02/04/test/</url>
-    <content><![CDATA[
-<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="9757025d56405bc30790a629ab771af56814873977d78e94f7f3e17214279d84">8f0323ad3578d98ae1dc1156466718d1f2c42ca967b47efaa6939ae8df2a34799ca071eb976277a9c595036dcdafaa22c49cc2d9574378d65456f4c90902cd48e36af877a25ff6ded83cd1d8543c97fd8cb4c454001e65de0ba32a42db964bdf0ad76c53a5ddd6bfd2495c742b6436537e9182c9b7c598a6994a838cb9b24e8a5942a93c0d44f4c53c51e926546e7df3c0c0ea3eb419c7e240ec8d7a37e679e27607310a3fbd8dfd811c902ba201e51ce5a2d6034c3715eb1d8c7eb3ab3f7f4751ea402002cfe46f12b4fc19759cb0f77a55b65c80d3e8225e7598d48d1e8ada04e20057676eaae50bcd14b7e2c759065b10010b0e843b35dfc2f0bf9896702c1323d0b3cf8b10ed6a0ed5e87fd73482f4bb9753e0920e0d21f2bf541df6f6daf6862c4dc37049007cdc85ff8497412a87baa31d0a6cfffb15e92f211f3b429f5b5f988d0d8816a7868dbbee83b25602f180f0a06c6f7a9d0c8f802da5aeb33bf2d362ee7110a08c41eea312e96ae6375d63b55838972771cd8a437012ecaf550b729a2ca9b4ed0372b74858a12cf418bdb09d4a45900599511b745838c88472081835f55bbcf116ff22989d3ce556840f7b80da07e3c3848a1fc5c53fd86da4b9362c3a3c0a08b12b119b86ca48ae68677b5f2eb99ccae8ec98ac0b8ce4ce2a4ca001b763cdc99a2b700a2ad6560dc80f6cbd43ab55992687b71e63140da00c13a852fa9df6bd2a186fe5764d7886191d3a92eeca1906141cdc6d270b6b4ead1e677d2b5da340546456e0ec2537e08590be4187a6b22f51125bfaaf329760a4570c66986cfb6fb6dd8e7b87087822d2</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
-<script data-swup-reload-script type="module">
-import {initHBE} from "/js/plugins/hbe.js";
-  console.log("hexo-blog-encrypt: loaded.");
-    initHBE();
-</script>
-]]></content>
+    <title>印象</title>
+    <url>/2024/05/21/%E5%8D%B0%E8%B1%A1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><h1 id="第一印象："><a href="#第一印象：" class="headerlink" title="第一印象："></a>第一印象：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDIzNWMzMjQ1NDhlNTk3NDdkMWFmOGU4OTc5OWM5ZmRfM2p5OGhmNkxDOURpRU0zZjExMmtGYjY2VmxaMkduWUJfVG9rZW46V1ZzVmJSbTlEb0lab3J4akkzUmMzWm92blhnXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="眼睛最大的一张："><a href="#眼睛最大的一张：" class="headerlink" title="眼睛最大的一张："></a>眼睛最大的一张：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=NDMwMGMyZDk0NmI5ZWJkMTg2YTViZDQwNjA0YWFmOTBfb3czZEJQWjg5b1VHSzVVYXBlN0dJSjlIQjhjUlNjRzBfVG9rZW46RmZtQWJ0VnZDb0RUNGh4UmgxT2N6Zm42bjJiXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="学生妹："><a href="#学生妹：" class="headerlink" title="学生妹："></a>学生妹：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2FmNDI5YjZjMzk1ODNlZjBiYjgxMDA2ZWFiMzY4NDhfNk45dHQzSkRrTnFSRElBRmcydW5RY09JbGRXVnB4WVZfVG9rZW46S2M5YWJpQWdhb2hIQkR4b29SemNjeHZ4bmNnXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="不屑的眼神："><a href="#不屑的眼神：" class="headerlink" title="不屑的眼神："></a>不屑的眼神：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=MWU4ZjA5ZTg1ZWY4NjQ2M2IyYTA5OTY4M2YzNjY3OThfUVRTYUQ4VTdCckJUZ3JBVFZvYTdGZUVZa0hkN1kweEtfVG9rZW46UVRDRmI4TnZ3bzMxcXJ4czRRTGM3UEo3blFkXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="最喜欢的之一，但是太模糊了："><a href="#最喜欢的之一，但是太模糊了：" class="headerlink" title="最喜欢的之一，但是太模糊了："></a>最喜欢的之一，但是太模糊了：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=NjI4ZWUwZGQxYTI4MjJkOWE5ZGYzMTA3MmI5NTExNTZfbGU5WFk1SVkweTlmRk40YnZ4MTNvZlpKeUFoUDFLQnRfVG9rZW46RFpHN2JqRE5tb0lnS3p4cVgwa2M0eWZjbnVkXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="最能俘虏直男的网图："><a href="#最能俘虏直男的网图：" class="headerlink" title="最能俘虏直男的网图："></a>最能俘虏直男的网图：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDMwMmUxNzAyOGQ2MGJlZDRjZjA1N2U1Njk0YTE1MzJfb29DaWdNU01rdmlpUFRDMm4wWHdpQk1yTnFXcHZoTEZfVG9rZW46T0JsaGIyREhQb0lGQ2N4Y0Jub2Nsa0l1blpiXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="最具80年代即视感："><a href="#最具80年代即视感：" class="headerlink" title="最具80年代即视感："></a>最具80年代即视感：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZWVkYjNmMTUzMmZmNDE4YjRmZGY1MWUyMjk2NGZjYTdfUGRwZzBOejlXVnpXS2ppQWVPTVFKYzJ6MTRDaVpQNUZfVG9rZW46TkRBYWJYOXp2b3BweTd4RVo5TGMzOFNCblJoXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="唯一一张哭唧唧的图，可怜🥺："><a href="#唯一一张哭唧唧的图，可怜🥺：" class="headerlink" title="唯一一张哭唧唧的图，可怜🥺："></a>唯一一张哭唧唧的图，可怜🥺：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=MzBlMTk4NTFhZDc3NTk0YTJiMGRjMjM3M2NhYzBhNmVfUDAzazBEd2V5WU5NT0xlUFF6b2xJOTd5S0RKV3ZFZlNfVG9rZW46UTZWcWIwMTBib2d6Q2l4dUlOemNwUFhVbjNjXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<p>在生气的你看来，我只会觉得委屈）</p>
+<p>那我现在在你面前落泪呢 你会觉得怎么样</p>
+<h1 id="调皮的感觉，如果是长发，我一定会很喜欢："><a href="#调皮的感觉，如果是长发，我一定会很喜欢：" class="headerlink" title="调皮的感觉，如果是长发，我一定会很喜欢："></a>调皮的感觉，如果是长发，我一定会很喜欢：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=YTdiZTY5MjM2N2E3NDdjZDEwYzI0Yzc0NzE1YjE5ODBfS0VFQ2RCUmxKUjAxV2prNEJZS0YxeTVaYzQ5VTFUczdfVG9rZW46R0Z1WmJCMU9Sb3M0bGx4eTZ1dWNkM0JkbmhoXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="腿最长的一张："><a href="#腿最长的一张：" class="headerlink" title="腿最长的一张："></a>腿最长的一张：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDNhZWZlNzE1NDUzNDI5ODYyYjhkMDUwNzNjZDQxMWNfaHpyZTh2TlRoVXpJa3FsdTFLdHF5TG84eEFzWjJ2S3pfVG9rZW46VkdDOGJuUW83b091ZUR4Ykt3eGNlVTRpblJoXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="痣的点缀让这张图成为最性感的"><a href="#痣的点缀让这张图成为最性感的" class="headerlink" title="痣的点缀让这张图成为最性感的"></a>痣的点缀让这张图成为最性感的</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=N2I5NjJhYWZlMDRhYzUzNzBkYzI5Njk1ZDk1YmU3ZDlfZ2FTOFB4TGw1bnhtVlpHdHQ2eFNRT1hKQk5VZVpwZ3JfVG9rZW46S2RONmJ0UWdLb1ZmSjd4QXowN2NHcFVQbm5kXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="邻家小妹即视感（无辜且甜美）："><a href="#邻家小妹即视感（无辜且甜美）：" class="headerlink" title="邻家小妹即视感（无辜且甜美）："></a>邻家小妹即视感（无辜且甜美）：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=M2NlOTRhZjM5MDc0ODFmMTJlYzJjNzc4ZjJmMzI1YTBfOVRIR2VNdjRMcmFqZkE1dTRBNmRFTEtCZFBZQ2xlbFFfVG9rZW46Q1NPZGJVZ2UxbzhyU2h4VHpBb2N3RHZyblRoXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="这张比我自己拍的那张更好看，但是没有高清"><a href="#这张比我自己拍的那张更好看，但是没有高清" class="headerlink" title="这张比我自己拍的那张更好看，但是没有高清"></a>这张比我自己拍的那张更好看，但是没有高清</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=YzY1OWU5NTc3ZTc0MTFhZWJmNDg3MTc1MWVkYTY4M2FfS2JjSmN6cHVjSDB2dHNPUUtuSU0xUWY1bTJUU2t3SW1fVG9rZW46TjFVaGJPU3pHbzBuSkp4RXJwV2NxQUl4bnRjXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="最抽象的一张："><a href="#最抽象的一张：" class="headerlink" title="最抽象的一张："></a>最抽象的一张：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=NmViOTk2NDNlM2Q5NDZjNzQyZTVkZmM5ZTNkNGQzMGJfNnc5YmlKUVJFUjZPUEFMS2hteGxzQWRJaHRjSVd5TEtfVG9rZW46RjFidmJqR3NZbzFNSlN4M2VhQmNxcGR1bjhnXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="最恐怖的一种，每次看到我都会被吓到，所以我删了："><a href="#最恐怖的一种，每次看到我都会被吓到，所以我删了：" class="headerlink" title="最恐怖的一种，每次看到我都会被吓到，所以我删了："></a>最恐怖的一种，每次看到我都会被吓到，所以我删了：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=N2QzNzBkYjI4NjEyYmNlMzE1MGEyMzc0ZjJlYmRjZTJfYlFnUDlpbHdkNmJlWGczaHdZVlJEOXdRRXRWRTdBRnBfVG9rZW46R2NmdmJudEgwb0NoZlB4OG9QVWNoZXpjbmp4XzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="就是这张图让我下定决心要换个手机："><a href="#就是这张图让我下定决心要换个手机：" class="headerlink" title="就是这张图让我下定决心要换个手机："></a>就是这张图让我下定决心要换个手机：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=NDUxZWY3ZWQ4YTBjYTEyM2M4ZmI1MzYwYzA0ODU2MjBfZW9iVEJ3ZlhOU3V5OEhYenZXb0ZmdkNTYXlyeGZMajVfVG9rZW46VXl2ZWJjU2pQb1F6UkV4SGVpdWNGN3N5blZwXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<h1 id="我的黑眼圈真的有那么大吗？："><a href="#我的黑眼圈真的有那么大吗？：" class="headerlink" title="我的黑眼圈真的有那么大吗？："></a>我的黑眼圈真的有那么大吗？：</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://dhi0fncazg.feishu.cn/space/api/box/stream/download/asynccode/?code=NDk4NTBiMThjYTk2ZDBiM2QzMjYxZGM0MWEyMTEzZTJfSW9HeWpyNFNhVm5NSFRYZmZTTWEzS3F1R09xZGhWa2lfVG9rZW46VG9rcGI2UEc1b2pCNFV4Y3FvOWNEVDJ3bkdmXzE3NDA3NTQwNzQ6MTc0MDc1NzY3NF9WNA"
+                      alt="img"
+                ></p>
+<p>暂时无法在飞书文档外展示此内容</p>
+<h1 id="如果我们从来没有遇见彼此，我们的人生，会是什么样子？"><a href="#如果我们从来没有遇见彼此，我们的人生，会是什么样子？" class="headerlink" title="如果我们从来没有遇见彼此，我们的人生，会是什么样子？"></a>如果我们从来没有遇见彼此，我们的人生，会是什么样子？</h1><p>想要和一个人相遇，需要什么条件？需要在同一个时代，在同一个时刻，出现在同一个地点，然后，静静的等待命运的排列组合，那些普普通通的人生轨迹，开始相互交织，平凡的日子，因为与你相遇的那个人，渐渐变成有趣的模样。</p>
+<p>在同一个时代，同一个时刻，同一个游戏，第一次相遇。上天安排着我静静的等待，默默等着你的出现，和你的主动一次邀请。我破天荒主动了一次要了你的微信，是第一次主动问微信，也是唯一一次。</p>
+<p>在经过一段快乐的时光之后，那天当我觉得我们理应缘尽于此，也该分道扬镳，让交织的命运回归平行。似乎是月老不甘心，在那天把你的样子无端放进我的脑海里，甚至天气好似为了让我有理由搭话而变冷。而那一次从此，让我们的命运真正开始交织，缠绵。</p>
+<p>有时候我会想，如果我们从来没有遇见彼此，我们的人生，会是什么样子？我喜欢独处，但是比起独自一人，也许，我还是更想要身边有一个人，陪我一起看的日出日落更温馨一点吧，如果那个人是你。</p>
+<p>时光荏苒，岁月如梭，但是这一切恍若昨日，我很感谢你闯进我的生活，我也很感谢当初的我能主动起来，我觉得这是我这辈子做的最好的一件事，没有其一；或许在平凡的日子里，我们总有一些争吵，跟冤家一样，吵完了之后还能厚脸皮嬉皮笑脸，可能情侣就是这样吧，两个人总是有这样的时刻，但我相信我们会更了解彼此。我们要相信一起度过的时光，不管是什么形式。总会有解决的办法的，不是吗？</p>
+<p>你说接吻其实没有电视中那么香，你这个人真的是，难道想吃人，接吻要是香的，恐怕现在世界上就多了一种吃人的罪。在我看来，接吻是表达爱意的方式，愿意接受彼此的无声承诺，你不会和除了你喜欢的那个人以外的任何一个人接吻吧？除了我爱的那个人，连别人喝过的饮料我也难以接受。我觉得我内心是很爱你的，当我和你接吻的时候，我很确定我们是全身心地相爱，我身体本能的让我把你抱的更紧，生理性的渴望，渴望品尝你身体的每一处的味道，甜味，酸味，腥味还有荷尔蒙的味道。想和你灵魂融为一体，——你中有我，我中有你，如㬵似漆，难以分离的圆满的感觉。</p>
+<p>这次没有给你准备节日礼物，给你道个歉，下次给你补回来。爱你</p>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+            var options = {
+            thumbnail:true,
+            selector: '.lightgallery'
+        };
+        var galleries = document.getElementsByClassName("gallery");
+        for (let item of galleries) {
+            lightGallery(item, options)
+        }
+        }</script>]]></content>
       <categories>
-        <category>重要的</category>
+        <category>归档</category>
       </categories>
       <tags>
-        <tag>important</tag>
+        <tag>2024</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024-致刘滢滢的告白</title>
+    <url>/2024/05/20/24520%E5%91%8A%E7%99%BD/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><div class="timeline">
+
+
+  <div class="event right">
+    <div class="time-tag">2024.5.20</div>
+    <h6>今天是我们的第二个520</h6>
+    <p>我们已经在一起473天！</p>
+  </div>
+
+
+  <div class="event left">
+    <div class="time-tag">2024.5.2</div>
+    <p>我们终于见面了</p>
+    <p>2024.5.2 的晚上，我们第一次在现实中相遇，第一次见你我真的害羞了，你真的很符合我的审美，可能是情人如西施吧，怎么看都好看。这是我们相爱的第455天。</p>
+  </div>
+  
+
+<div class="event right">
+  <div class="time-tag">2024.03.04</div>
+  <h6>今天是你的公历生日</h6>
+  <p>这是你和我度过的第二个生日，很遗憾我没有像上次一样给你送了很多的礼物，我怕影响到你的学习，决定在你高考之前不会给你乱买礼物，哈哈哈，可是520还是要给你的！</p>
+</div>
+
+
+<div class="event left">
+  <div class="time-tag">2024.02.02</div>
+  <h6>我们在一起已经一周年啦！</h6>
+  <p>你还记得那天发生了什么吗？</p>
+  <p>我们还要度过无数个365天！！！</p>
+</div>
+  
+
+<div class="event right">
+  <div class="time-tag">2024.02.01</div>
+  <h6>我们有没有过上一个好的新年？</h6>
+  <p>这么快的事情我居然忘了</p>
+</div>
+
+<div class="event left">
+  <div class="time-tag">2024.01.30</div>
+  <h6>希望你不要误会我</h6>
+  <p>我利用我兼职赚的钱给你买了一盒口红礼盒，我记得我看了很久，但是又看不出来有什么区别，我没见过你，不知道你真正的肤色，所以我选择了最保险的方法，买三支不一样的，有一支适合你我就觉得很好了，但是你误会我，觉得我送你礼物是想要你也给我礼物，对于你的误会我真的很伤心，因此我们大吵一架。就好像我第一次送你那个瑶的皮肤（后面你给回钱我）一样，我未曾想过从你那里得到什么，我只是单纯的觉得和你玩的时候很开心，只是单纯想送给你。可能有时候我说话方式是不对吧。那会我真的觉得我的新意被糟蹋了，所以我才很生气说出那些伤人的话。可是我也是高中过来的人，高中生没什么钱，家里人也反对我去兼职打工，我一直是知道的，所以我高中不敢谈恋爱啊，我从来没想你会给我什么，我很喜欢你的手工，对我来说，这些东西才是有灵魂的，对比那些冷冰冰的消费主义商品，一份你亲手做的手工足千金。</p>
+  </div>
+  
+
+<div class="event right">
+  <div class="time-tag">2024.01.01</div>
+  <h6>一转眼，这已经是我们认识第三年了</h6>
+  <p>那时候我还在广州兼职，那天我很累，很多东西我都不记得了，我只记得你给我的壁纸，我一直用到现在。</p>
+</div>
+
+
+<div class="event left mint">
+  <div class="time-tag">2024.12</div>
+  <h6>我给你送了我讨厌的奖牌</h6>
+  <p>在此之前，我一直很讨厌那个奖牌，因为那个app莫名其妙扣过我的钱，又把我之前的免费课程变成收费的，让我一度觉得keep太贪婪，看着你跟我说，一开始我还是不喜欢，试图跟你说，可是后来我想开了，如果你开心的话，又何尝不可。于是我买了个戒指，后来看见你发朋友圈，太小了，我又给你跑个奖牌。希望你不要怪我以前对此事的固执。</p>
+</div>
+
+  <div class="event left">
+    <div class="time-tag">2023.08</div>
+    <h6>火辣的交锋期</h6>
+    <p>我们一次又一次吵架，互相不理解</p>
+    <p>打王者吵到支离破碎，后来选择停战</p>
+    <p>尝试多个游戏后发现你还是最爱王者</p>
+    <p>我最终下载回来，继续陪你征战峡谷</p>
+  </div>
+  
+
+  <div class="event right">
+    <div class="time-tag">2023.06</div>
+    <h6>无声的雨季</h6>
+    <p>那段时间你非常失落，希望你一切安好</p>
+    <p>那天晚上你非常的失落，一直在哭，我不知道发生了什么</p>
+    <p>也不会安慰人，所以我只能一直听着你哭</p>
+    <p>已经记不清具体是哪天，但那时你的心像梅雨季的天空</p>
+  </div>
+
+  <div class="event left">
+    <div class="time-tag">2023.05.20</div>
+    <h6>我们的第一次情人节</h6>
+    <p>在一起的107天，105天我给你寄快递的时候，快递员毫无边界</p>
+    <p>感的扒拉我给你的礼物，让我汗流浃背，那段时间你老喜欢</p>
+    <p>拿我送给你的魔法棒打电话吵我，让我一度非常后悔，我就应</p>
+    <p>该把那个喇叭偷偷拆了再给你！</p>
+  </div>
+
+  <div class="event right">
+    <div class="time-tag">2023.04.01</div>
+    <p>我收到了你给我的生日礼物我很开心</p>
+    <p>这可是第一次有女孩子给我送生日礼物，我觉得永远不会忘记</p>
+    <p>你的，我最喜欢的是那一瓶子的小星星！</p>
+  </div>
+
+  <div class="event left purple">
+    <div class="time-tag">2023.03</div>
+    <p>你还记得这段时间发生了什么？</p>
+    <p>我记得我三月份就开始给你攒礼物，哈哈哈，当时买了一箱子</p>
+  </div>
+
+  <div class="event right">
+    <div class="time-tag">2023.03.07</div>
+    <p>你收到了我给你的生日礼物</p>
+    <p>我第一次给女孩子准备礼物，不周到之处请多多指教。</p>
+  </div>
+
+  <div class="event left amber">
+    <div class="time-tag">2023.02.24</div>
+    <p>这是我认识你，你的第一次生日</p>
+    <p>我还记得你很难过，你的家里人没有给你买蛋糕，也没空陪你</p>
+    <p>过生日，那天晚上你和你的好姐妹还有同桌过了生日，你的心</p>
+    <p>情得到好转。</p>
+  </div>
+
+  <div class="event right">
+    <div class="time-tag">2023.02.21</div>
+    <p>收到了你第一次给我送的礼物</p>
+    <p>我还记得，有旺仔饼干，旺仔牛奶糖，蛋黄酥，红色和紫色的</p>
+    <p>糖果，有发卡，还有你亲手做的黄色小狗，还有你亲手写的小</p>
+    <p>纸条。我每一个都很喜欢。</p>
+  </div>
+
+  <div class="event left sky">
+    <div class="time-tag">2023.02.02</div>
+    <p>我们在一起啦！</p>
+    <p>2023.2.2我们正式在一起了，一定是你诱惑我</p>
+  </div>
+
+  <div class="event left">
+    <div class="time-tag">2022.11</div>
+    <p>脑子抽风</p>
+    <p>那天晚上下课，我独自一人到饭堂吃饭，天气转冷，我脑子忽</p>
+    <p>然想起了你，于是发了个信息给你：天冷了，请注意保暖。命</p>
+    <p>运的齿轮开始转动。</p>
+  </div>
+
+  <div class="event right">
+    <div class="time-tag">2022.10</div>
+    <p>我们好像断联了半个月</p>
+    <p>那个时候，我觉得我们的缘分就到此了，我要开始我的新生活</p>
+    <p>了，而你也有你自己的生活，我想我们的人生也应该从交汇重</p>
+    <p>归平行线，毕竟这样的经历我一次又一次，已经习惯了；我选</p>
+    <p>择了不打扰你。</p>
+  </div>
+
+  <div class="event left">
+    <div class="time-tag">2022.08.29</div>
+    <p>才没玩几天，你怎么要上学了！</p>
+    <p>真舍不得，我又要自己玩了。</p>
+  </div>
+  
+
+  <div class="event right">
+    <div class="time-tag">2022.08.15</div>
+    <p>我们认识的第一天</p>
+    <p>2022.8.15的晚上，我们第一次认识光，我很能聊，也很喜欢</p>
+    <p>一起玩，后来你开学了，说要去学校当志愿者搞卫生，我叫你</p>
+    <p>不去，哈哈哈，其实刚刚认识的时候，我就开始教坏你了，只</p>
+    <p>不过你现在才发现</p>
+  </div>
+
+
+</div>
+
+<h2 id="2024-5-20-致刘滢滢的告白"><a href="#2024-5-20-致刘滢滢的告白" class="headerlink" title="2024.5.20-致刘滢滢的告白"></a>2024.5.20-致刘滢滢的告白</h2><p>想要和一个人相遇，需要什么条件？需要在同一个时代，在同一个时刻，出现在同一个地点，然后，静静的等待命运的排列组合，那些普普通通的人生轨迹，开始相互交织，平凡的日子，因为与你相遇的那个人，渐渐变成有趣的模样。</p>
+<p>身处同一个时代的我们，那天在同一个时刻，同一个游戏，第一次相遇。<br>那天游戏界面上，我看着已上线的好友发呆，心里在嘀咕，我什么时候加的它们，一个都不认识，或许，上天安排着我静静的等待，默默等着你的出现，你主动一次，我也破天荒主动了一次，是第一次，也是唯一一次。<br>我看着你的头像，丝毫不认识，误以为你是我某个同学，便接受了邀请，但是你的声音让我发现自己未曾认识你，我的性格向来是不会主动，可我竟破天荒的主动了起来，我至今也无法给自己一个解释为什么要这么做，也许这是缘分吗？当我踏入我学校的时候，我觉得我们理应缘尽于此，也该分道扬镳，让交织的命运回归平行，我觉得理所当然。但是事情很明显没有按照我的想法循规蹈矩，我很喜欢这种感觉，值得肯定的是，这是上天的不甘心，竟让我脑海里无端想起你，从此让我们的命运开始交织，缠绵。有时候我会想，如果我们从来没有遇见彼此，我们的人生，会是什么样子？我很喜欢独处，但是比起独自一人，也许，我还是更想要身边有一个人，陪我一起看的日出日落更温馨一点吧，如果那个人是你。</p>
+<p>时光荏苒，岁月如梭，但是这一切恍若昨日，谁又能想到今天的样式，21世纪，网恋没聊垮，奔现成功，这样的经历，我们或许算的上很幸福的一对了。我喜欢这种感觉，我很感谢你，在我还是学生的最后三年，实现了我学生时代想谈一段永远也忘不了的恋爱的愿望。以前我会觉得我总是很倒霉，从来都没有什么好事发生给我。直到遇你，齿轮开始转动···</p>
+<style>
+.timeline {
+  --blue-bg: #e3f2fd;
+  --blue-text: #0d47a1;
+  --pink-bg: #fce4ec;
+  --pink-text: #880e4f;
+  max-width: 600px;
+  margin: 2rem auto;
+  position: relative;
+}
+
+/* 时间轴线优化 */
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  border-left: 2px dashed #bdbdbd;
+  transform: translateX(-50%);
+}
+
+/* 事件容器通用样式 */
+.event {
+  width: 46%;
+  padding: 1.2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+/* 右侧事件（蓝色系） */
+.event.right {
+  margin-left: 54%;
+  background: var(--blue-bg);
+}
+.event.right p {
+  color: var(--blue-text);
+}
+
+/* 左侧事件（粉色系） */
+.event.left {
+  margin-right: 54%;
+  background: var(--pink-bg);
+}
+.event.left p {
+  color: var(--pink-text);
+}
+
+/* 时间标签优化 */
+.time-tag {
+  font-size: 0.95em;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.event.right .time-tag {
+  color: var(--blue-text);
+}
+.event.left .time-tag {
+  color: var(--pink-text);
+}
+
+/* 悬停效果 */
+.event:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+/* 移动端完美适配 */
+@media (max-width: 768px) {
+  .event {
+    width: 86%;
+    margin: 2rem 7% !important;
+  }
+}
+
+/*================ 新增绿色系 ================*/
+:root {
+  --mint-bg: #e8f5e9;     /* 薄荷绿背景 */
+  --mint-text: #2e7d32;   /* 深绿文字 */
+  --mint-border: #a5d6a7; /* 柔和绿边框 */
+}
+
+/* 绿色气泡 */
+.event.mint {
+  background: var(--mint-bg);
+
+}
+
+.event.mint p,
+.event.mint .time-tag {
+  color: var(--mint-text);
+}
+
+/* 绿色装饰图标 */
+.event.mint::after {
+  content: '🌿'; /* 改用植物符号 */
+  left: -55px;
+  filter: hue-rotate(15deg);
+}
+
+/* 绿色悬停动效 */
+.event.mint:hover {
+  box-shadow: 0 6px 16px rgba(165,214,167,0.3);
+}
+
+/*================ 颜色扩展系统 ================*/
+:root {
+  /* 紫色系 */
+  --purple-bg: #f3e5f5;
+  --purple-text: #6a1b9a;
+  --purple-border: #ce93d8;
+
+  /* 琥珀系 */
+  --amber-bg: #fff8e1;
+  --amber-text: #ff8f00;
+  --amber-border: #ffd54f;
+
+  /* 青空蓝 */
+  --sky-bg: #e1f5fe;
+  --sky-text: #0277bd;
+  --sky-border: #4fc3f7;
+}
+
+/* 紫色气泡 */
+.event.purple {
+  background: var(--purple-bg);
+
+}
+.event.purple p,
+.event.purple .time-tag {
+  color: var(--purple-text);
+}
+.event.purple::after {
+  content: '🔮';
+  color: #9c27b0;
+  left: -55px;
+  filter: saturate(1.2);
+}
+
+/* 琥珀气泡 */
+.event.amber {
+  background: var(--amber-bg);
+
+}
+.event.amber p,
+.event.amber .time-tag {
+  color: var(--amber-text);
+}
+.event.amber::after {
+  content: '🍯';
+  color: #ffa000;
+}
+
+/* 青空蓝气泡 */
+.event.sky {
+  background: var(--sky-bg);
+
+}
+.event.sky p,
+.event.sky .time-tag {
+  color: var(--sky-text);
+}
+.event.sky::after {
+  content: '☁️';
+  color: #4fc3f7;
+}
+
+/* 悬停动效增强 */
+.event.purple:hover {
+  box-shadow: 0 6px 16px rgba(206,147,216,0.3);
+}
+.event.amber:hover {
+  box-shadow: 0 6px 16px rgba(255,213,79,0.3);
+}
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+            var options = {
+            thumbnail:true,
+            selector: '.lightgallery'
+        };
+        var galleries = document.getElementsByClassName("gallery");
+        for (let item of galleries) {
+            lightGallery(item, options)
+        }
+        }</script>]]></content>
+      <categories>
+        <category>归档</category>
+      </categories>
+      <tags>
+        <tag>时光</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>爱情ISO9001质量认证标准</title>
+    <url>/2025/02/28/setStandards/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><ol>
+<li>公开，专一，不聊骚，这是爱一个人的基本，是你应该的，不是你付出的。</li>
+<li>恋爱里，没有人生来就是满分，对方也不是你肚子里的蛔虫，你清楚的告知，可能对方才会恍然大悟。</li>
+<li>结婚生子是你的人生选择，而不是你的人生。</li>
+<li>人是怎么变得无趣的？就是机械性的重复同样的事物，&#x3D;&#x3D;定期的去尝试新鲜事物是很重要的。&#x3D;&#x3D;形式上的变化指的是一起去新地方旅游、尝试新的游戏或活动等。<strong>你只要记住，这是一个新的事情，双方都能接受的变化，是两个人没有体验过的就可以了。</strong></li>
+<li></li>
+</ol>
+<h2 id="安全感"><a href="#安全感" class="headerlink" title="安全感"></a>安全感</h2><blockquote>
+<p>💡「我们无法消灭猜疑，就像无法停止呼吸。但可以学会用正确的方式呼吸。」<br>—— 约翰·戈特曼《爱的博弈》</p>
+</blockquote>
+<p>人类对确定性的需求根植于进化本能。当亲密关系中的信息出现空白时，我们的大脑会本能地构建猜测——这本质上是一种自我保护机制。<strong>猜疑的动机不是伤害对方，而是试图通过信息补全获得安全感。</strong></p>
+<h3 id="安全感的双重支柱"><a href="#安全感的双重支柱" class="headerlink" title="安全感的双重支柱"></a>安全感的双重支柱</h3><ol>
+<li><p><strong>自我价值确信</strong><br>持续的个人成长构建内在安全感，形成”我值得被爱”的核心认知</p>
+</li>
+<li><p><strong>伴侣行为验证</strong><br>通过可观测的言行线索（如响应速度、承诺兑现度）建立信任评估系统</p>
+</li>
+</ol>
+<hr>
+<h2 id="信息透明化实践方案"><a href="#信息透明化实践方案" class="headerlink" title="信息透明化实践方案"></a>信息透明化实践方案</h2><h3 id="基础原则"><a href="#基础原则" class="headerlink" title="基础原则"></a>基础原则</h3><ul>
+<li>建立<strong>双向披露承诺</strong>：双方主动分享日常轨迹（如”今天和同事聚餐”）与重要决策（如”准备换工作”）</li>
+<li>设置<strong>隐私分级制度</strong>：允许保留非核心隐私（如童年创伤），但严禁刻意隐瞒关系敏感信息</li>
+</ul>
+<p><strong>典型案例处理</strong>：<br>当伴侣坦白”去网吧”这类可能引发矛盾的信息时：</p>
+<ol>
+<li><strong>即时肯定</strong>：”谢谢你告诉我”（强化坦诚行为）  </li>
+<li><strong>后续讨论</strong>：”我们聊聊你对网吧的需求好吗？”（解决具体问题）</li>
+</ol>
+<hr>
+<h2 id="激励系统设计指南"><a href="#激励系统设计指南" class="headerlink" title="激励系统设计指南"></a>激励系统设计指南</h2><h3 id="正向强化机制"><a href="#正向强化机制" class="headerlink" title="正向强化机制"></a>正向强化机制</h3><ul>
+<li><strong>及时性奖励</strong>：在对方主动披露信息后2小时内给予积极反馈（如拥抱、感谢话语）</li>
+<li><strong>累积式奖励</strong>：每月透明度达标可兑换”关系升级券”（如深度旅行体验）</li>
+</ul>
+<h3 id="负向约束机制"><a href="#负向约束机制" class="headerlink" title="负向约束机制"></a>负向约束机制</h3><table>
+<thead>
+<tr>
+<th>行为类型</th>
+<th>应对策略</th>
+<th>执行要点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>无意疏漏</td>
+<td>宽容提醒</td>
+<td>避免过度情绪化</td>
+</tr>
+<tr>
+<td>防御性隐瞒</td>
+<td>暂停情感联结（24小时冷静期）</td>
+<td>明确行为与后果的关联性</td>
+</tr>
+<tr>
+<td>系统性欺骗</td>
+<td>启动关系重构谈判</td>
+<td>需第三方见证人介入</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="长期维护策略"><a href="#长期维护策略" class="headerlink" title="长期维护策略"></a>长期维护策略</h2><ol>
+<li><strong>设置安全阈值</strong>：允许5%的信息保留区（应对突发隐私需求）  </li>
+<li><strong>实施系统校准</strong>：每季度审查机制运作效能，保留有效条款，淘汰僵化规则</li>
+</ol>
+<blockquote>
+<p>最终目标不是消除所有猜疑，而是构建<strong>弹性应对系统</strong>——当70%的核心信息保持透明时，关系便具备自我修复的基础能力。</p>
+</blockquote>
+<hr>
+<h2 id="情绪稳定修炼指南"><a href="#情绪稳定修炼指南" class="headerlink" title="情绪稳定修炼指南"></a>情绪稳定修炼指南</h2><h3 id="打破误区：情绪稳定≠强行忍耐"><a href="#打破误区：情绪稳定≠强行忍耐" class="headerlink" title="打破误区：情绪稳定≠强行忍耐"></a>打破误区：情绪稳定≠强行忍耐</h3><p>很多人误以为情绪稳定就是强忍怒火，但真正的情绪稳定是内在修炼。就像装满沸水的茶壶，强行按压壶盖只会引发更剧烈的爆发。我们要做的不是压抑情绪，而是学会转化视角——这需要从思维方式入手，而非表面克制。</p>
+<h3 id="一、认知升级：换位思考的魔力"><a href="#一、认知升级：换位思考的魔力" class="headerlink" title="一、认知升级：换位思考的魔力"></a>一、认知升级：换位思考的魔力</h3><h4 id="情绪产生的底层逻辑"><a href="#情绪产生的底层逻辑" class="headerlink" title="情绪产生的底层逻辑"></a>情绪产生的底层逻辑</h4><p><em>情景模拟</em>：加班到深夜突遇暴雨，对象迟到半小时。这时你脑中可能闪过：”他明知我累还迟到，根本不在乎我！”</p>
+<p><strong>情绪转化三步骤</strong>：</p>
+<ol>
+<li>暂停情绪洪流：深呼吸三次，给自己10秒冷静期</li>
+<li>启动侦探模式：列举5种可能原因（堵车&#x2F;临时加班&#x2F;车辆故障等）</li>
+<li>建立情绪缓冲带：问自己”最坏的可能性有多大？”</li>
+</ol>
+<blockquote>
+<p><strong>关键洞察</strong>：情绪是解释的产物，而非事实本身。就像同一部电影，不同视角会看到不同故事。</p>
+</blockquote>
+<h4 id="长期视角训练法"><a href="#长期视角训练法" class="headerlink" title="长期视角训练法"></a>长期视角训练法</h4><p>遇到纠结时问自己：<br>▫️这个问题1年后还重要吗？<br>▫️5年后会成为人生转折点吗？<br>▫️10年后能否记得具体细节？</p>
+<p>通过这种”时空望远镜”，你会发现90%的情绪困扰都会在时间维度中自然消解。</p>
+<h3 id="二、实战工具箱：问题解决四步法"><a href="#二、实战工具箱：问题解决四步法" class="headerlink" title="二、实战工具箱：问题解决四步法"></a>二、实战工具箱：问题解决四步法</h3><h4 id="1-SMART原则应用实例"><a href="#1-SMART原则应用实例" class="headerlink" title="1. SMART原则应用实例"></a>1. SMART原则应用实例</h4><p>当发生争吵时：</p>
+<ul>
+<li><strong>具体目标</strong>：三日内修复关系</li>
+<li><strong>可衡量指标</strong>：恢复日常问候、共进晚餐</li>
+<li><strong>可行方案</strong>：主动发起对话+准备小礼物</li>
+<li><strong>相关价值</strong>：维护长期亲密关系</li>
+<li><strong>时间节点</strong>：本周五前完成沟通</li>
+</ul>
+<h4 id="2-预判思维训练"><a href="#2-预判思维训练" class="headerlink" title="2. 预判思维训练"></a>2. 预判思维训练</h4><p>建立”情绪预警系统”：</p>
+<ul>
+<li>记录3次类似场景的触发点</li>
+<li>分析共同模式（如特定语气&#x2F;行为）</li>
+<li>制定3种应对预案</li>
+</ul>
+<h4 id="3-止损黄金法则"><a href="#3-止损黄金法则" class="headerlink" title="3. 止损黄金法则"></a>3. 止损黄金法则</h4><p>当冲突已发生：<br>1️⃣ <strong>即时止损</strong>：暂停争论，物理隔离10分钟<br>2️⃣ <strong>修复两步走</strong>：真诚道歉+具体补偿（如按摩&#x2F;做家务）<br>3️⃣ <strong>复盘机制</strong>：事后共同分析冲突根源</p>
+<h3 id="三、终极心法：掌控感的建立"><a href="#三、终极心法：掌控感的建立" class="headerlink" title="三、终极心法：掌控感的建立"></a>三、终极心法：掌控感的建立</h3><p>真正的情绪稳定源于对生活的掌控感。每成功解决一次危机，都是在积累情绪免疫力。建议每月进行”情绪体检”：<br>✅ 记录情绪失控次数<br>✅ 分析高频触发场景<br>✅ 更新应对策略库</p>
+<p><strong>修炼彩蛋</strong>：建立”情绪成就清单”，每次成功管理情绪后，写下具体场景和处理方式。当清单越来越长，你会发现自己已蜕变为情绪的主人。</p>
+<blockquote>
+<p>情绪稳定不是与生俱来的天赋，而是可以训练的生存智慧。每一次情绪波动都是修炼的契机，当我们学会用多维视角看问题，用系统方法解难题，情绪就会成为照亮生活的灯塔，而非吞噬理智的漩涡。</p>
+</blockquote>
+<h2 id="亲密关系中的高阶吵架指南：把冲突变成感情升温的契机"><a href="#亲密关系中的高阶吵架指南：把冲突变成感情升温的契机" class="headerlink" title="亲密关系中的高阶吵架指南：把冲突变成感情升温的契机"></a>亲密关系中的高阶吵架指南：把冲突变成感情升温的契机</h2><h3 id="重新定义吵架：感情中的压力测试"><a href="#重新定义吵架：感情中的压力测试" class="headerlink" title="重新定义吵架：感情中的压力测试"></a>重新定义吵架：感情中的压力测试</h3><p>吵架不是感情破裂的预警信号，而是一次深度连接的契机。数据显示，懂得正确吵架的情侣，关系亲密度平均提升37%。关键在于掌握”建设性冲突”的黄金法则：<strong>事实为锚点、情绪做桥梁、方案成闭环</strong>。</p>
+<h4 id="一、拆解冲突的原子结构"><a href="#一、拆解冲突的原子结构" class="headerlink" title="一、拆解冲突的原子结构"></a>一、拆解冲突的原子结构</h4><h5 id="1-事实陈述的黄金模版（STAR法则）"><a href="#1-事实陈述的黄金模版（STAR法则）" class="headerlink" title="1. 事实陈述的黄金模版（STAR法则）"></a>1. 事实陈述的黄金模版（STAR法则）</h5><ul>
+<li><strong>Situation（场景）</strong>：昨晚23:15的视频通话</li>
+<li><strong>Target（目标）</strong>：约定互道晚安</li>
+<li><strong>Action（行为）</strong>：未收到任何消息</li>
+<li><strong>Result（结果）</strong>：等待至凌晨1点</li>
+</ul>
+<p><strong>话术对比实验</strong>：<br>❌ 指责式：”你总是忘记说晚安！”<br>✅ 事实型：”我们昨晚的视频通话结束后，没有完成约定的晚安仪式”</p>
+<blockquote>
+<p>研究显示，使用”我们”开头的陈述，对方防御性反应降低62%</p>
+</blockquote>
+<h5 id="2-情绪解压的三层过滤"><a href="#2-情绪解压的三层过滤" class="headerlink" title="2. 情绪解压的三层过滤"></a>2. 情绪解压的三层过滤</h5><ol>
+<li><strong>表层情绪</strong>：愤怒&#x2F;失望（易引发对抗）</li>
+<li><strong>核心情绪</strong>：担心&#x2F;不安（需被看见）</li>
+<li><strong>深层需求</strong>：安全感&#x2F;归属感（待满足）</li>
+</ol>
+<p><strong>情绪转化练习</strong>：<br>“你三天没回消息” → “联系中断让我担心你的安全，我需要确认我们的联结”</p>
+<h4 id="二、冲突解决的战术工具箱"><a href="#二、冲突解决的战术工具箱" class="headerlink" title="二、冲突解决的战术工具箱"></a>二、冲突解决的战术工具箱</h4><h5 id="1-建议提案的SMART原则"><a href="#1-建议提案的SMART原则" class="headerlink" title="1. 建议提案的SMART原则"></a>1. 建议提案的SMART原则</h5><ul>
+<li><strong>Specific</strong>：每天22:00前视频3分钟</li>
+<li><strong>Measurable</strong>：设置双向消息提醒</li>
+<li><strong>Achievable</strong>：出差时改为语音留言</li>
+<li><strong>Relevant</strong>：强化情感纽带</li>
+<li><strong>Time-bound</strong>：试行两周后复盘</li>
+</ul>
+<h5 id="2-修复时机的”情绪温度计”"><a href="#2-修复时机的”情绪温度计”" class="headerlink" title="2. 修复时机的”情绪温度计”"></a>2. 修复时机的”情绪温度计”</h5><table>
+<thead>
+<tr>
+<th>温度区间</th>
+<th>修复策略</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>90℃+</td>
+<td>暂停2小时冷却期</td>
+</tr>
+<tr>
+<td>60-89℃</td>
+<td>送对方最爱奶茶</td>
+</tr>
+<tr>
+<td>30-59℃</td>
+<td>轻触手臂试探</td>
+</tr>
+<tr>
+<td>&lt;30℃</td>
+<td>深度沟通复盘</td>
+</tr>
+</tbody></table>
+<h4 id="三、危险雷区与拆弹指南"><a href="#三、危险雷区与拆弹指南" class="headerlink" title="三、危险雷区与拆弹指南"></a>三、危险雷区与拆弹指南</h4><h5 id="1-四大毁灭性沟通模式"><a href="#1-四大毁灭性沟通模式" class="headerlink" title="1. 四大毁灭性沟通模式"></a>1. 四大毁灭性沟通模式</h5><p>💣 人身攻击：”你和你爸一样自私”<br>💣 历史翻账：”上次旅行你就…”<br>💣 威胁控制：”再这样就分手”<br>💣 冷暴力：沉默超48小时  </p>
+<p><strong>拆弹口诀</strong>：<br>“暂停-呼吸-换位-重构”</p>
+<h5 id="2-战火后的黄金修复期"><a href="#2-战火后的黄金修复期" class="headerlink" title="2. 战火后的黄金修复期"></a>2. 战火后的黄金修复期</h5><p>▫️ <strong>24小时法则</strong>：重要矛盾不过夜<br>▫️ <strong>3:1甜蜜补偿</strong>：1次冲突对应3次亲密互动<br>▫️ <strong>身体记忆法</strong>：冲突后必做拥抱&#x2F;握手等接触  </p>
+<blockquote>
+<p>神经科学研究显示，20秒拥抱可促进催产素分泌，抵消冲突带来的压力激素</p>
+</blockquote>
+<h3 id="高阶彩蛋：冲突管理系统"><a href="#高阶彩蛋：冲突管理系统" class="headerlink" title="高阶彩蛋：冲突管理系统"></a>高阶彩蛋：冲突管理系统</h3><ol start="4">
+<li><p><strong>建立冲突日志</strong><br>记录每次争吵的：<br>✓ 触发事件<br>✓ 情绪峰值时间<br>✓ 有效解决方式<br>✓ 后续改善效果  </p>
+</li>
+<li><p><strong>制定恋爱宪法</strong><br>共同约定：<br>✓ 禁止词汇清单<br>✓ 安全词机制<br>✓ 中场休息信号  </p>
+</li>
+<li><p><strong>定期关系CT扫描</strong><br>每月进行：<br>✓ 需求匹配度检测<br>✓ 情绪账户余额检查<br>✓ 未解决冲突归档</p>
+</li>
+</ol>
+<p><strong>终极心法</strong>：真正摧毁关系的从不是吵架本身，而是那些未被妥善处理的情绪残骸。当我们将每次冲突视为感情系统的升级补丁，争吵就会变成让关系更紧密的铆钉。记住，最高级的秀恩爱，是你们连吵架都透着默契的甜。</p>
+<h2 id="区分主次"><a href="#区分主次" class="headerlink" title="区分主次"></a>区分主次</h2><p>对陌生人有求必应，大部分精力和财力都消耗在了这些事情上面。反过来，对家人既缺乏精神上的关怀，也无力在物质上做出贡献。当自己遇到了要紧事需要帮助的时候，却无人问津，发现自己曾经帮助过的人，像躲瘟神一样避而不见，于是便开始抱怨世态炎凉、人情冷暖，甚至心生怨恨，变得非常负能量。</p>
+<p>在这些人的逻辑中，自己对周围人有求必应，会获得一个好人缘，甚至可以增加自己的社交地位和威望。</p>
+<p>可惜，这明显有些一厢情愿了。作为普通人，对所有人都有求必应，会迅速降低你所付出辛苦的重要性。当周围人发现你不懂得区分远近亲疏，对谁都一样好时，会下意识的将你的付出当做理所应当，甚至看作一种福利。不要白不要，便宜不占白不占。当你因为某些原因无法提供帮助时，还会心生怨恨，认为本该属于自己的福利，因为你的拒绝而被剥夺了。</p>
+<p>我们从读书开始，就被灌输了很多美好的概念，比如做人要一视同仁，这的确是人类社会中的美好品德。但在灌输概念的同时，却忽略了背后的注意事项和限定条件，一视同仁这句话出自唐朝韩愈的文章原文，故圣人一世而同仁，笃敬而举远。这句话的大意是说，圣人对待天下的百姓态度都是一样的，对待身边的人也十分真诚，对关系疏远的人也会举荐他。</p>
+<p>这句话提到，一视同仁时，有一个潜在条件，那就是圣人与百姓之间的地位关系。圣人可以亲民，但谁也无法否定圣人拥有普通百姓难以企及的影响力。只要圣人的一个推荐，就可以让一个凡夫俗子鱼跃龙门。</p>
+<p>&#x3D;&#x3D;一视同仁是圣人对自我对这种影响力的道德约束，是上位者行使权利时的行为准则。&#x3D;&#x3D;对于缺乏影响力又毫无权利的普通人而言，如果刻意的模仿圣人，所谓的一视同仁，很可能将自己活成一个笑话。难不成老妈和普通人落水了？为了彰显自己的一视同仁，偏要选择去救陌生人吗？这不是一视同仁，而是明显的虚伪。圣人是几千年来人类社会中的楷模，是无数人效仿的对象。但我们也要承认，几千年来只出了屈指可数的几位圣人，就连至圣先师孔子也曾因为以貌取人和听信一面之词而看人下菜碟。</p>
+<p>当我们在一个社会或团体中，处在一个相对基层的位置时，首先要做的是脚踏实地，认清自己的位置，不仅要将工作分清楚。也要在人际关系中分清主次，也就是最开始的时候提到的，做人要分清远近亲疏。</p>
+<p>在外人看来，你不仅乐于助人，而且有求必应。但也正是因为将精力用在了这些事情上面，对待家人时，往往失去了耐心，他自然就没有精力思考家人的感受。想说什么就说什么，这就是典型的没有分清远近亲疏，将自己的经历都耗在了并不重要的陌生人或者同事身上。而面对真正会影响自己生活，甚至后半生的人和事，反而毫无余力了。这其实是很多人都会犯的一个问题。</p>
+<p>谈恋爱时，对方再优秀再吸引，也要遵循一个过程，一段亲密关系的建立，是不可能一蹴而就的，更不可能一上来就凌驾于家庭，至今之上。只有到谈婚论嫁，步入婚姻殿堂以后，才可以调整远近亲疏的位置，进而建立新的家庭。</p>
+<p>中国传统文化讲究的是修身齐家治国平天下，修身要重视自己的心性，齐家要学会如何对待家人。等到了步入社会有了一定成就时，再开始治国平天下，此时才应该逐渐学会一视同仁，这本身就是一个分清远近亲疏的发展过程。普通人直接跳过修身齐家，刻意的去一视同仁和帮助他人，甚至不重视自我修养和亲情培养，这就是典型的本末倒置。我们生而为人，首先是要活下去，还要活得好。</p>
+<p>当我们有了一定的基础，这里既包括温馨的亲情、浪漫的爱情和相互关怀的友情。此时此刻，我们像阳光一样充满了正能量。在情满则溢的去照顾父母和家庭，帮助亲朋好友。以上这些做的非常好，以后又感觉自己还有些余力再去思考如何帮助他人回馈社会，这才是一个事物从无到有，从幼到壮的发展的顺序。</p>
+<p>如果我们本末倒置，将回馈社会，帮助他人放到了首位，非但不会做出多少贡献，反而容易把自己弄得遍体鳞伤，甚至反而收获周围人的恶语重伤。</p>
+<p>此时此刻，又因为这些负能量抱怨。作为成年人很重要的一个标志，就是懂得分清远近亲疏。只有这样，我们才能合理分配自己有限的精力和时间，进而从源头上规避自己辛苦付出，到头来却毫无所得的窘境。</p>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+            var options = {
+            thumbnail:true,
+            selector: '.lightgallery'
+        };
+        var galleries = document.getElementsByClassName("gallery");
+        for (let item of galleries) {
+            lightGallery(item, options)
+        }
+        }</script>]]></content>
+      <categories>
+        <category>建设中</category>
+      </categories>
+      <tags>
+        <tag>2025</tag>
       </tags>
   </entry>
 </search>
