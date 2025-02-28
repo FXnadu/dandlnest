@@ -29,7 +29,7 @@
 <meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/redefine-og.webp">
-<meta property="article:published_time" content="2025-02-27T15:12:09.921Z">
+<meta property="article:published_time" content="2025-02-28T04:49:10.344Z">
 <meta property="article:modified_time" content="2025-02-27T15:12:09.913Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
@@ -111,14 +111,111 @@
 
 
 <body>
-	<main class="content">
-  <header class="timeline-header">
-    <h1 class="timeline-title">🍬 西窗盐糖纪</h1>
-    <div class="title-divider">✧ ⁺ ⸰ ⋆ ⸰ ⁺ ✧</div>
-  </header>
+	<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <style>
+    /* 返回按钮核心样式 */
+    .back-button {
+      position: fixed;
+      top: 2.2rem;
+      left: 3.5rem;
+      z-index: 999;
+      opacity: 0.9;
+      transition: 
+        transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28),
+        opacity 0.4s ease;
+    }
 
-  <article>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><style>
+    .btn-content {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.7rem 1.4rem;
+      background: rgba(255, 240, 245, 0.86);
+      backdrop-filter: blur(8px);
+      border-radius: 2.2rem;
+      box-shadow: 0 4px 15px rgba(231, 182, 202, 0.2);
+      border: 1px solid rgba(255, 228, 235, 0.6);
+    }
+
+    .arrow-icon {
+      width: 1.3rem;
+      height: 1.3rem;
+      fill: #ec7c9d;
+      margin-right: 0.7rem;
+      transition: transform 0.2s ease;
+    }
+
+    .btn-text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 0.95rem;
+      letter-spacing: -0.03em;
+      color: #d45b7a;
+      text-shadow: 0 2px 4px rgba(236, 124, 157, 0.1);
+    }
+
+    /* 交互状态 */
+    .back-button:hover {
+      opacity: 1;
+      transform: translateY(-1px);
+    }
+    .back-button:hover .arrow-icon {
+      transform: translateX(-3px);
+    }
+    .back-button:hover .btn-text {
+      text-shadow: 0 2px 8px rgba(236, 124, 157, 0.3);
+    }
+
+    /* 隐藏状态 */
+    .back-button.hidden {
+      opacity: 0;
+      transform: translateY(-20px) scale(0.95);
+      pointer-events: none;
+    }
+
+    /* 布局避让 */
+    .content.adjusted-padding {
+      padding-top: 6rem;
+    }
+
+    /* 移动端适配 */
+    @media (max-width: 768px) {
+      .back-button {
+        left: 1.8rem;
+        top: 1.8rem;
+      }
+      .btn-content {
+        padding: 0.6rem 1.2rem;
+        border-radius: 2rem;
+      }
+      .btn-text {
+        font-size: 0.85rem;
+      }
+      .content.adjusted-padding {
+        padding-top: 5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 返回按钮 -->
+  <a href="/" class="back-button">
+    <div class="btn-content">
+      <svg class="arrow-icon" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+      <span class="btn-text">🏡 回到甜蜜小屋</span>
+    </div>
+  </a>
+
+  <!-- 页面内容 -->
+  <main class="content adjusted-padding">
+    <header class="timeline-header">
+      <h1 class="timeline-title">🍬 西窗盐糖纪</h1>
+      <div class="title-divider">✧ ⁺ ⸰ ⋆ ⸰ ⁺ ✧</div>
+    </header>
+
+    <article>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css" /><style>
 
 /* 年份标题容器 */
 .year-header {
@@ -455,113 +552,197 @@
         }
         }</script>
 
-    
-      <div class="love-timeline">
-        
-          <section class="year-group">
-            <!-- 图片风格年份标题 -->
-            <div class="year-header">
-              <span class="year">2024</span>
-              <h3 class="era-title">烟火人间录</h3>
-              <span class="year-flower">🌸</span>
-            </div>
+      
+        <div class="love-timeline">
+          
+            <section class="year-group">
+              <div class="year-header">
+                <span class="year">2024</span>
+                <h3 class="era-title">烟火人间录</h3>
+              </div>
+              
+              <div class="heart-divider">🌸🌊🍤</div>
+              
+              <ul class="task-list">
+                
+                  <li class="task-item done">
+                    <span class="icon">🧸</span>
+                    <div class="task-content">
+                      <span class="text">一起抓娃娃</span>
+                      
+                        <small class="meta">战利品：三只毛绒信使 | 抓钩精准度：87%</small>
+                      
+                    </div>
+                  </li>
+                
+                  <li class="task-item todo">
+                    <span class="icon">🦐</span>
+                    <div class="task-content">
+                      <span class="text">剥🦐给yy吃</span>
+                      
+                        <small class="meta">目标：完整保留虾尾造型 | 蘸料配方：蜂蜜芥末+柠檬汁</small>
+                      
+                    </div>
+                  </li>
+                
+                  <li class="task-item todo">
+                    <span class="icon">🏖️</span>
+                    <div class="task-content">
+                      <span class="text">一起去沙滩玩</span>
+                      
+                        <small class="meta">装备清单：情侣款防晒衫 | 必拍场景：贝壳项链DIY</small>
+                      
+                    </div>
+                  </li>
+                
+                  <li class="task-item todo">
+                    <span class="icon">🍗</span>
+                    <div class="task-content">
+                      <span class="text">一起做可乐鸡翅</span>
+                      
+                        <small class="meta">秘制配方：零度可乐+桂花蜜 | 腌制时长：2小时</small>
+                      
+                    </div>
+                  </li>
+                
+              </ul>
+            </section>
+          
+            <section class="year-group">
+              <div class="year-header">
+                <span class="year">2023</span>
+                <h3 class="era-title">星月童话纪</h3>
+              </div>
+              
+              <div class="heart-divider">🌌✨🌠</div>
+              
+              <ul class="task-list">
+                
+                  <li class="task-item done">
+                    <span class="icon">💇♀️</span>
+                    <div class="task-content">
+                      <span class="text">帮yy吹头发</span>
+                      
+                        <small class="meta">成就：卷发棒使用大师 | 最速记录：8分钟造型</small>
+                      
+                    </div>
+                  </li>
+                
+                  <li class="task-item done">
+                    <span class="icon">🌶️</span>
+                    <div class="task-content">
+                      <span class="text">吃五谷鸡爪</span>
+                      
+                        <small class="meta">辣度等级：微醺三星 | 解辣神器：手作冰镇杨梅汁</small>
+                      
+                    </div>
+                  </li>
+                
+                  <li class="task-item done">
+                    <span class="icon">🚶♀️</span>
+                    <div class="task-content">
+                      <span class="text">一起逛小吃街</span>
+                      
+                        <small class="meta">隐藏成就：连吃7摊不重样 | 推荐摊位：爆浆芝士虾球</small>
+                      
+                    </div>
+                  </li>
+                
+              </ul>
+            </section>
+          
+        </div>
+      
+    </article>
+  </main>
 
-            <!-- 内容结构保持 -->
-            <div class="heart-divider">🌸🌊🍤</div>
-            <ul class="task-list">
-              
-                <li class="task-item done">
-                  <span class="icon">🧸</span>
-                  <div class="task-content">
-                    <span class="text">一起抓娃娃</span>
-                    
-                      <small class="meta">战利品：三只毛绒信使 | 抓钩精准度：87%</small>
-                    
-                  </div>
-                </li>
-              
-                <li class="task-item todo">
-                  <span class="icon">🦐</span>
-                  <div class="task-content">
-                    <span class="text">剥🦐给yy吃</span>
-                    
-                      <small class="meta">目标：完整保留虾尾造型 | 蘸料配方：蜂蜜芥末+柠檬汁</small>
-                    
-                  </div>
-                </li>
-              
-                <li class="task-item todo">
-                  <span class="icon">🏖️</span>
-                  <div class="task-content">
-                    <span class="text">一起去沙滩玩</span>
-                    
-                      <small class="meta">装备清单：情侣款防晒衫 | 必拍场景：贝壳项链DIY</small>
-                    
-                  </div>
-                </li>
-              
-                <li class="task-item todo">
-                  <span class="icon">🍗</span>
-                  <div class="task-content">
-                    <span class="text">一起做可乐鸡翅</span>
-                    
-                      <small class="meta">秘制配方：零度可乐+桂花蜜 | 腌制时长：2小时</small>
-                    
-                  </div>
-                </li>
-              
-            </ul>
-          </section>
-        
-          <section class="year-group">
-            <!-- 图片风格年份标题 -->
-            <div class="year-header">
-              <span class="year">2023</span>
-              <h3 class="era-title">星月童话纪</h3>
-              <span class="year-flower">🌸</span>
-            </div>
-
-            <!-- 内容结构保持 -->
-            <div class="heart-divider">🌌✨🌠</div>
-            <ul class="task-list">
-              
-                <li class="task-item done">
-                  <span class="icon">💇♀️</span>
-                  <div class="task-content">
-                    <span class="text">帮yy吹头发</span>
-                    
-                      <small class="meta">成就：卷发棒使用大师 | 最速记录：8分钟造型</small>
-                    
-                  </div>
-                </li>
-              
-                <li class="task-item done">
-                  <span class="icon">🌶️</span>
-                  <div class="task-content">
-                    <span class="text">吃五谷鸡爪</span>
-                    
-                      <small class="meta">辣度等级：微醺三星 | 解辣神器：手作冰镇杨梅汁</small>
-                    
-                  </div>
-                </li>
-              
-                <li class="task-item done">
-                  <span class="icon">🚶♀️</span>
-                  <div class="task-content">
-                    <span class="text">一起逛小吃街</span>
-                    
-                      <small class="meta">隐藏成就：连吃7摊不重样 | 推荐摊位：爆浆芝士虾球</small>
-                    
-                  </div>
-                </li>
-              
-            </ul>
-          </section>
-        
-      </div>
+  <script>
+    (function() {
+      const backButton = document.querySelector('.back-button')
+      let state = {
+        lastScroll: 0,
+        isHiding: false,
+        lockTimer: null
+      }
     
-  </article>
-</main>
+      // 状态管理器
+      function updateState(scrollTop) {
+        const SCROLL_THRESHOLD = 80
+        const isOverThreshold = scrollTop > SCROLL_THRESHOLD
+        const isScrollingDown = scrollTop > state.lastScroll
+        
+        // 状态决策树
+        if (isScrollingDown && isOverThreshold && !state.isHiding) {
+          enterHidingState()
+        } else if (!isScrollingDown || scrollTop < SCROLL_THRESHOLD) {
+          exitHidingState()
+        }
+        
+        state.lastScroll = scrollTop
+      }
+    
+      // 进入隐藏状态
+      function enterHidingState() {
+        state.isHiding = true
+        backButton.classList.add('hidden')
+        clearTimeout(state.lockTimer)
+        state.lockTimer = setTimeout(() => {
+          state.isHiding = false 
+        }, 1200) // 状态锁定1.2秒
+      }
+    
+      // 退出隐藏状态
+      function exitHidingState() {
+        if (!state.isHiding) return
+        backButton.classList.remove('hidden')
+        state.isHiding = false
+        clearTimeout(state.lockTimer)
+      }
+    
+      // 增强型滚动处理
+      function handleScroll() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+        updateState(scrollTop)
+        
+        // 到达页面顶部强制退出
+        if (scrollTop === 0) {
+          exitHidingState()
+        }
+      }
+    
+      // 智能节流器
+      const throttleScroll = (fn, delay) => {
+        let last = 0
+        return (...args) => {
+          const now = Date.now()
+          if (now - last < delay) return
+          last = now
+          fn(...args)
+        }
+      }
+    
+      // 事件监听
+      window.addEventListener('scroll', throttleScroll(handleScroll, 20), { passive: true })
+      
+      // 移动端特殊处理
+      let touchStart = 0
+      window.addEventListener('touchstart', e => {
+        touchStart = e.touches[0].pageY
+      }, { passive: true })
+    
+      window.addEventListener('touchend', () => {
+        if (state.isHiding) {
+          // 触摸结束后维持隐藏状态1秒
+          clearTimeout(state.lockTimer)
+          state.lockTimer = setTimeout(() => {
+            state.isHiding = false
+          }, 1000)
+        }
+      }, { passive: true })
+    })()
+    </script>
+</body>
+</html>
 	
 <script src="/js/build/tools/imageViewer.js" type="module"></script>
 
